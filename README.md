@@ -4,6 +4,6 @@ Day1 : test
 
 Day2 - 8 : 추후에 아카이빙 할 것
 
-Day 9 : 진행 중
+Day 9 : 완료
 
-git clone test
+Day 10 : 진행 중
