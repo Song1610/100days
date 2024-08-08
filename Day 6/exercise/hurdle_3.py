@@ -18,3 +18,10 @@ while not at_goal():
       jump()
   elif front_is_clear():
       move()
+
+# or
+while not at_goal():
+  if wall_in_front():
+    jump()
+  else:
+    move()
