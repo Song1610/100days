@@ -16,3 +16,6 @@ The last line of your program should print the result.
 
 ##### Example 2 Output
 7
+
+
+life
