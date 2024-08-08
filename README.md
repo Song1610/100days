@@ -1,9 +1,5 @@
 # 100 Days of Code: Python 정리 및 아카이빙
 
-Day1 : test
-
-Day2 - 8 : 추후에 아카이빙 할 것
-
-Day 9 : 완료
-
-Day 10 : 진행 중
+- Day 1 ~ 8 : 아카이빙 완료
+- Day 9 : 완료
+- Day 10 : 강의 듣는 중
