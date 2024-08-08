@@ -9,7 +9,12 @@ It should tell them the interpretation of their BMI based on the BMI value.
 - Equal to or over 30 but below 35 they are obese
 - Equal to or over 35 they are clinically obese.
 
+![bmi](https://github.com/user-attachments/assets/28a880aa-815f-4b1f-8d0c-a5b13f61ad5c)
+
+
 The BMI is calculated by dividing a person's weight (in kg) by the square of their height (in m):
+
+![bmi2](https://github.com/user-attachments/assets/921fa938-ba9b-4ec7-81fd-720e99adc511)
 
 
 Important: you do not need to round the result to the nearest whole number. It's fine to print out a floating point number for this exercise. The interpretation message needs to include the words from the interpretations above. e.g. underweight, normal weight, overweight, obese, clinically obese.
