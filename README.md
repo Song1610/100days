@@ -3,3 +3,4 @@
 - Day 1 ~ 8 : 아카이빙 완료
 - Day 9 : 완료
 - Day 10 : 강의 듣는 중
+- pycharm test
