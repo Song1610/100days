@@ -39,6 +39,12 @@ def format_name():
 
 format_name()
 
+'''
+Print vs Output
+Return vs. Display: The return statement is used to give back a value from a function, which can be used later, while print is used to display a value to the console only for the programmer to see.
+Return vs Display : return 문은 함수에서 나중에 사용할 수 있는 값을 반환하는 데 사용되는 반면, print는 프로그래머만 볼 수 있도록 콘솔에 값을 표시하는 데 사용됩니다.
+'''
+
 
 # 2차
 def format_name(f_name, l_name):
