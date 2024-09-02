@@ -1,11 +1,11 @@
 # docstring
 docstring을 사용하면 코드를 문서화하는 여러 줄 주석을 작성할 수 있음
 
+```
 """
-
 여기에 작성
-
 """
+```
 
 ## 함수 문서화(Documenting Functions)
 1. 함수 정의 바로 아래에 사용할 수 있음
