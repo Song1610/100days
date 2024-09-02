@@ -15,5 +15,7 @@ docstring을 사용하면 코드를 문서화하는 여러 줄 주석을 작성�
 
 ### 예시
 def my_function(num):
+
     """Multiplies a number by itself."""
+    
     return num * num
