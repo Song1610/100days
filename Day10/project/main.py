@@ -31,7 +31,7 @@ def calculator():
     while accumulate:
         for symbol in operations:
             print(symbol)
-        op = input("choice operations: ")
+        op = input("등호 선택: ")
         num2 = float(input("second number : "))
 
         result = operations[op](num1,num2)
