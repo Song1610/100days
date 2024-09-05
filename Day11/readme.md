@@ -37,9 +37,10 @@ http://listmoz.com/view/6h34DJpvJBFVRlZfJvxF
 https://drive.google.com/uc?export=download&id=1rDkiHCrhaf9eX7u7yjM1qwSuyEk-rPnt
 
 #### Hint 4 
-아래 목록을 사용하여 임이의 카드를 반환하는 deal_card() 함수 만들기:
+아래 목록을 사용하여 임의의 카드를 반환하는 deal_card() 함수 만들기:
+```
 cards = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
-
+```
 Remember that 11 is the Ace.
 
 #### Hint 5 
