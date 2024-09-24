@@ -27,6 +27,9 @@ if user_sum or computer_sum == 21:
 
 elif user_sum > 21:
     if user_cards[0] or user_cards[1] == 11:
-        11 + [] > 21 -> 1 + [] 으로 변경
-    elif user_cards[0] or user_cards[1] not 11:
+        user_cards[0] or user_cards[1] == 1
+        user_sum = user_cards[0] + user_cards[1]
+        print(user_sum)
+
+    elif not(user_cards[0] == 11) or not(user_cards[1] == 11):
         print("User has Lose.")
