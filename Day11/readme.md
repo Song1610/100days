@@ -36,6 +36,10 @@ http://listmoz.com/view/6h34DJpvJBFVRlZfJvxF
 흐름도 다운로드 후 읽기:
 https://drive.google.com/uc?export=download&id=1rDkiHCrhaf9eX7u7yjM1qwSuyEk-rPnt
 
+흐름도
+![day 11 blackjack flowchart-32](https://github.com/user-attachments/assets/0bf43b33-4f97-410d-9603-f9c2ae64fc44)
+
+
 #### Hint 4 
 아래 목록을 사용하여 임의의 카드를 반환하는 deal_card() 함수 만들기:
 ```
