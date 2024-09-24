@@ -1,23 +1,25 @@
 import random
 
 def deal_card():
+    """ 랜덤으로 카드를 뽑는다. """
     cards = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
-    card = random.sample(cards, 2)
+    card = random.choice(cards)
     return card
 
+# hint 5
+user_cards = []
+computer_cards = []
 
-user_cards = deal_card()
-computer_cards = deal_card()
+for _ in range(2):
+    user_cards.append(deal_card())
+    computer_cards.append(deal_card())
 
-print(f"user : {user_cards}")
-print(f"computer : {computer_cards}")
-
-
-
-user_sum = user_cards[0] + user_cards[1]
-computer_sum = computer_cards[0] + computer_cards[1]
-print(f"user: {user_sum}")
-print(f"computer: {computer_sum}")
+# hint 6
+def calculate_score(cards):
+    user_sum = user_cards[0] + user_cards[1]
+    computer_sum = computer_cards[0] + computer_cards[1]
+    print(f"user: {user_sum}")
+    print(f"computer: {computer_sum}")
 
 if user_sum or computer_sum == 21:
     if user_sum == 21 and (user_cards[0] or user_cards[1] == 11):
