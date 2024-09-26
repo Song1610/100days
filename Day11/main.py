@@ -14,6 +14,9 @@ for _ in range(2):
     user_cards.append(deal_card())
     computer_cards.append(deal_card())
 
+print(user_cards)
+print(computer_cards)
+
 # hint 6
 def calculate_score(cards):
     user_sum = user_cards[0] + user_cards[1]
