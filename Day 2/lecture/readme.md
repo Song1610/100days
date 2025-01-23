@@ -1,22 +1,28 @@
 # Data Types
-### String
-가장 기본적인 데이터 타입
-
+### Subscripting
+- 가장 기본적인 데이터 타입
 ```
 print("hello"[4])
 ```
 
-"123"  # "" 안에 있으면 어쨌든 문자로 취급
-
-```print("123" + "345")```
+### String
+```
+print("123" + "345")
+```
+* "123"  # "" 안에 있으면 어쨌든 문자로 취급
 
 ### integer : 정수
 
-```print(123 + 345)```
 * 123_456_789 → 123456789 로 인식
+```
+print(123 + 345)
+```
+
 
 ### float : 소수
-```print(3.14159)```
+```
+print(3.14159)
+```
 
 ### boolean : 참/거짓
 ```
@@ -25,7 +31,9 @@ print(False)
 ```
 
 ## 유형 오류, 유형 검사 및 유형 변환
-```num_char = len(input("what is your name?"))```
+```
+num_char = len(input("what is your name?"))
+```
 * print("your name has " + num_char + " characters.")    error : num_char가 정수가 아님
 
 ```
