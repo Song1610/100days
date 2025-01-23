@@ -44,8 +44,10 @@ print(type("12345"))
 #### PAUSE 2
 
 4가지 데이터 유형을 모두 출력하기 위해 4가지 유형 검사를 작성합니다.
-type() 및 print() 함수를 사용하여 출력 영역에 4줄을 출력하여 우리가 배운 모든 데이터 유형 컬렉션을 얻습니다.
-<class 'str'> <class 'int'> <class 'float'> 및 <class 'bool'>
+
+type() 및 print() 함수를 사용하여 출력 영역에 4줄을 출력하세요
+
+<class 'str'> <class 'int'> <class 'float'> <class 'bool'>
 
 ```
 print(type("hello"))
