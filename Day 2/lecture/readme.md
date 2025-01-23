@@ -1,4 +1,5 @@
 # Data Types
+## 1. Data Types
 ### Subscripting
 - 가장 기본적인 데이터 타입
 ```
@@ -30,7 +31,30 @@ print(True)
 print(False)
 ```
 
-## 유형 오류, 유형 검사 및 유형 변환
+## 2. Type Error, Checking and Conversion
+### new
+#### PAUSE 1
+len() 함수를 수정하여 더 이상 경고나 오류가 발생하지 않도록 하세요.
+```
+len(12345)
+→ len("12345")
+print(type("12345"))
+```
+
+#### PAUSE 2
+
+4가지 데이터 유형을 모두 출력하기 위해 4가지 유형 검사를 작성합니다.
+type() 및 print() 함수를 사용하여 출력 영역에 4줄을 출력하여 우리가 배운 모든 데이터 유형 컬렉션을 얻습니다.
+<class 'str'> <class 'int'> <class 'float'> 및 <class 'bool'>
+
+```
+print(type("hello"))
+print(type(1234))
+print(type(3.1235))
+print(type(True))
+```
+
+### 예전버전
 ```
 num_char = len(input("what is your name?"))
 ```
@@ -42,7 +66,6 @@ print("your name has " + new_num_char + " characters.")
 print(type(num_char))
 ```
 
-
 ```
 a = 123
 print(type(a))
@@ -52,6 +75,9 @@ print(type(a))
 print(70 + float("100.5"))
 print(str(70) + str(100))
 ```
+
+
+
 
 ## 파이썬의 수학적 연산
 ```
