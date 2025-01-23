@@ -1,17 +1,20 @@
 # Data Types
 ### String
 가장 기본적인 데이터 타입
-`print("hello"[4])`
+
+```print("hello"[4])```
 
 "123"  # "" 안에 있으면 어쨌든 문자로 취급
-`print("123" + "345")`
+
+```print("123" + "345")```
 
 ### integer : 정수
-`print(123 + 345)`
+
+```print(123 + 345)```
 * 123_456_789 → 123456789 로 인식
 
 ### float : 소수
-`print(3.14159)`
+```print(3.14159)```
 
 ### boolean : 참/거짓
 ```
@@ -20,7 +23,7 @@ print(False)
 ```
 
 ## 유형 오류, 유형 검사 및 유형 변환
-`num_char = len(input("what is your name?"))`
+```num_char = len(input("what is your name?"))```
 * print("your name has " + num_char + " characters.")    error : num_char가 정수가 아님
 
 ```
@@ -41,11 +44,13 @@ print(str(70) + str(100))
 ```
 
 ## 파이썬의 수학적 연산
+```
 3 + 5
 10 - 3
 7 * 4
 6 / 3
 2**10  # 2의 10승
+```
 
 * 같은 코드줄에 하나 이상의 연산을 하면 특정 우선순위가 있음
 
