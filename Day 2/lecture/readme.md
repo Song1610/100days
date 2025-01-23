@@ -32,7 +32,7 @@ print(False)
 ```
 
 ## 2. Type Error, Checking and Conversion
-### new
+### new 버전
 #### PAUSE 1
 len() 함수를 수정하여 더 이상 경고나 오류가 발생하지 않도록 하세요.
 ```
