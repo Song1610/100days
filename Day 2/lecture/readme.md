@@ -57,11 +57,12 @@ print(type(3.1235))
 print(type(True))
 ```
 
-### 예전버전
+### old ▼
 ```
 num_char = len(input("what is your name?"))
+print("your name has " + num_char + " characters.")
 ```
-* print("your name has " + num_char + " characters.")    error : num_char가 정수가 아님
+error : num_char가 정수가 아님
 
 ```
 new_num_char = str(num_char)
