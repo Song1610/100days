@@ -1,10 +1,10 @@
 # Data Types 목차
 1. [Data Types](#1.-Data-Types)
-  * 1.1 Subscripting
-  * 1.2 String
-  * 1.3 integer : 정수
-  * 1.4 float : 소수
-  * boolean : 참/거짓
+     * 1.1 Subscripting
+     * 1.2 String
+     * 1.3 integer : 정수
+     * 1.4 float : 소수
+     * boolean : 참/거짓
 2. [Type Error, Checking and Conversion](#2.-Type-Error,-Checking-and-Conversion)
 3. [Mathematical Operations](#3.-Mathematical-Operations)
 4. [Number Manipulation](#4.-Number-Manipulation)
