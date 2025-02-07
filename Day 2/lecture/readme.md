@@ -100,6 +100,17 @@ print(6 // 3)       # 2
 print(type(6 // 3)) # <class 'int'>
 ```
 
+| 기호 | 내용 |
+|---|:---:|
+| () | paresntheses |
+| + | addition |
+| - | subtraction |
+| * | multiplication |
+| / | division |
+| // | 몫 |
+| % | 나머지 |
+| ** | exponents(거듭제곱) |
+
 지수(2^4)
 ```
 print(2**4)
@@ -117,17 +128,7 @@ print(3*(3+3)/3-3)  # 3
 ```
 * 같은 코드줄에 하나 이상의 연산을 하면 특정 우선순위가 있음
 
-### pemdaslr
-| 기호 | 내용 |
-|---|:---:|
-| () | paresntheses |
-| + | addition |
-| - | subtraction |
-| * | multiplication |
-| / | division |
-| // | 몫 |
-| % | 나머지 |
-| ** | exponents(거듭제곱) |
+
 
 
 
