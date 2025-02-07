@@ -131,6 +131,42 @@ print(3*(3+3)/3-3)  # 3
 | ** | exponents(거듭제곱) |
 
 
+
+
+## 4. Number Manipulation
+### New(25-02-07)
+
+```
+bmi = 84 / 1.65 ** 2
+# 추가 : 정수(int)로 나타내기
+print(int(bmi))         # 30
+```
+
+#### Rounding a Number
+```
+# 추가 : 반올림(round)로 나타내기
+print(round(bmi))       # 31
+print(round(bmi, 2))    # 30.85
+```
+
+#### Assignment Operators
+User scores a point
+```
+score = 0
+score += 1  # score = score + 1 와 같음
+print(score)
+```
+
+#### f-Strings
+예시
+```
+score = 0
+height = 1.8
+is_winning = True
+print(f"Your score is = {score}, your height is {height}. You are winning is {is_winning}.")
+```
+
+### old
 ### rounding numbers(반올림)
 ```
 print(8 / 3)
