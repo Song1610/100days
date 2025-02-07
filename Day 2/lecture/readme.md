@@ -157,7 +157,7 @@ score = 0
 score += 1
 print(score)
 ```
-score = score + 1 와 같음
+- score = score + 1 와 같음
 
 #### f-Strings
 예시
