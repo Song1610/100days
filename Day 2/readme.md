@@ -54,6 +54,7 @@ print(False)
 [목차로](#data-types-목차)
 
 </div>
+
 ---
 
 ## 2. Type Error, Checking and Conversion
@@ -110,6 +111,7 @@ print(str(70) + str(100))
 [목차로](#data-types-목차)
 
 </div>
+
 ---
 
 ## 3. Mathematical Operations
@@ -163,6 +165,7 @@ print(3*(3+3)/3-3)  # 3
 [목차로](#data-types-목차)
 
 </div>
+
 ---
 
 ## 4. Number Manipulation
