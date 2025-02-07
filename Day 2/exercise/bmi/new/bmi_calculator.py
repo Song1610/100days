@@ -8,5 +8,8 @@ bmi = weight / (height ** 2)
 print(bmi)
 
 # 추가 : 정수(int)로 나타내기
-print(int(bmi))
+print(int(bmi))         # 30
 
+# 추가 : 반올림(round)로 나타내기
+print(round(bmi))       # 31
+print(round(bmi, 2))    # 30.85
