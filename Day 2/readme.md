@@ -6,10 +6,14 @@
     * float : 소수
     * boolean : 참/거짓
 2. [Type Error, Checking and Conversion](#2-type-error-checking-and-conversion)
-    2.1 [new](#21-new-)
-    2.2 [old](#22-old-)
+    * new
+    * old
 3. [Mathematical Operations](#3-mathematical-operations)
+    * New(25-02-07)
+    * Old(25-02-07)
 4. [Number Manipulation](#4-number-manipulation)
+    * New(25-02-07)
+    * Old(25-02-07)
 
 ---
 
@@ -44,6 +48,12 @@ print(3.14159)
 print(True)
 print(False)
 ```
+
+<div align="right">
+  
+[목차로](#목차)
+
+</div>
 ---------------------------------------
 
 ## 2. Type Error, Checking and Conversion
@@ -94,6 +104,12 @@ print(70 + float("100.5"))
 print(str(70) + str(100))
 ```
 
+
+<div align="right">
+  
+[목차로](#목차)
+
+</div>
 ---------------------------------------
 
 ## 3. Mathematical Operations
@@ -142,7 +158,11 @@ print(3*(3+3)/3-3)  # 3
 ```
 * 같은 코드줄에 하나 이상의 연산을 하면 특정 우선순위가 있음
 
+<div align="right">
+  
+[목차로](#목차)
 
+</div>
 ---------------------------------------
 
 ## 4. Number Manipulation
@@ -223,3 +243,9 @@ print(
 ```
 
 나눗셈 후 나머지 ' % '
+
+<div align="right">
+  
+[목차로](#목차)
+
+</div>
