@@ -6,3 +6,7 @@ weight = 84
 bmi = weight / (height ** 2)
 
 print(bmi)
+
+# 추가 : 정수(int)로 나타내기
+print(int(bmi))
+
