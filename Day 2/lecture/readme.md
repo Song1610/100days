@@ -1,12 +1,12 @@
 # Data Types 목차
 1. [Data Types](#1.-Data-Types)
-     1.1 Subscripting
-     1.2 String
-     1.3 integer : 정수
-     1.4 float : 소수
-     boolean : 참/거짓
+    1.1 Subscripting
+    1.2 String
+    1.3 integer : 정수
+    1.4 float : 소수
+    boolean : 참/거짓
 2. [Type Error, Checking and Conversion](#2.-Type-Error,-Checking-and-Conversion)
-        2.1 [new](#new-▼)
+    2.1 [new](#2.1-new-▼)
 3. [Mathematical Operations](#3.-Mathematical-Operations)
 4. [Number Manipulation](#4.-Number-Manipulation)
 
@@ -46,7 +46,7 @@ print(False)
 ---------------------------------------
 
 ## 2. Type Error, Checking and Conversion
-### new ▼
+### 2.1 new ▼
 #### PAUSE 1
 len() 함수를 수정하여 더 이상 경고나 오류가 발생하지 않도록 하세요.
 ```
