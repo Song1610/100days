@@ -1,8 +1,9 @@
 # Data Types 목차
-- [1. Data Types](#Data Types)
+- Data Types(#Data Types)
   * [Subscripting](#Subscripting)
-- [제목2](#제목2)
-  * [부제목2](#부제목2)
+- [Type Error, Checking and Conversion](#Type Error, Checking and Conversion)
+  * [new ▼](#new ▼)
+  * old ▼(#old ▼)
 
 
 
