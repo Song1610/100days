@@ -31,8 +31,9 @@ print(True)
 print(False)
 ```
 
+
 ## 2. Type Error, Checking and Conversion
-### new 버전
+### new ▼
 #### PAUSE 1
 len() 함수를 수정하여 더 이상 경고나 오류가 발생하지 않도록 하세요.
 ```
@@ -81,7 +82,7 @@ print(str(70) + str(100))
 
 
 ## 3. Mathematical Operations
-### New(25-02-07)
+### New(25-02-07) ▼
 
 ```
 print("My age: " + str(12))
@@ -113,11 +114,8 @@ print(3*3+3/3-3)    # 7
 ```
 print(3*(3+3)/3-3)  # 3
 ```
-
 * 같은 코드줄에 하나 이상의 연산을 하면 특정 우선순위가 있음
 
-
-### old
 ### pemdaslr
 | 기호 | 내용 |
 |---|:---:|
@@ -134,7 +132,7 @@ print(3*(3+3)/3-3)  # 3
 
 
 ## 4. Number Manipulation
-### New(25-02-07)
+### New(25-02-07) ▼
 
 ```
 bmi = 84 / 1.65 ** 2
@@ -166,7 +164,7 @@ is_winning = True
 print(f"Your score is = {score}, your height is {height}. You are winning is {is_winning}.")
 ```
 
-### old
+### old ▼
 ### rounding numbers(반올림)
 ```
 print(8 / 3)
