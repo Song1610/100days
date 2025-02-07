@@ -1,5 +1,5 @@
 # Data Types 목차
-- [1. Data Types](# 1. Data Types)
+- 1. Data Types(#1. Data Types)
   * [Subscripting](#Subscripting)
 - [제목2](#제목2)
   * [부제목2](#부제목2)
