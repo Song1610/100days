@@ -54,7 +54,7 @@ print(False)
 [목차로](#data-types-목차)
 
 </div>
----------------------------------------
+---
 
 ## 2. Type Error, Checking and Conversion
 ### 2.1 new ▼
@@ -80,7 +80,7 @@ print(type(1234))
 print(type(3.1235))
 print(type(True))
 ```
----------------------------------------
+
 ### 2.2 old ▼
 ```
 num_char = len(input("what is your name?"))
@@ -110,7 +110,7 @@ print(str(70) + str(100))
 [목차로](#data-types-목차)
 
 </div>
----------------------------------------
+---
 
 ## 3. Mathematical Operations
 ### New(25-02-07) ▼
@@ -163,7 +163,7 @@ print(3*(3+3)/3-3)  # 3
 [목차로](#data-types-목차)
 
 </div>
----------------------------------------
+---
 
 ## 4. Number Manipulation
 ### New(25-02-07) ▼
@@ -199,7 +199,7 @@ height = 1.8
 is_winning = True
 print(f"Your score is = {score}, your height is {height}. You are winning is {is_winning}.")
 ```
----------------------------------------
+
 
 ### old ▼
 #### rounding numbers(반올림)
