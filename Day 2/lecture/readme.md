@@ -45,7 +45,7 @@ print(type("12345"))
 
 4가지 데이터 유형을 모두 출력하기 위해 4가지 유형 검사를 작성합니다.
 
-type() 및 print() 함수를 사용하여 출력 영역에 4줄을 출력하세요
+type() 및 print() 함수를 사용하여 출력 영역에 4줄을 출력하세요.
 
 <class 'str'> <class 'int'> <class 'float'> <class 'bool'>
 
@@ -80,8 +80,44 @@ print(str(70) + str(100))
 
 
 
+## 3. Mathematical Operations
+### New(25-02-07)
 
-## 파이썬의 수학적 연산
+```
+print("My age: " + str(12))
+```
+
+연산자(PEMDASLR)
+```
+print(123 + 456)
+print(7 - 3)
+print(3 * 2)
+print(6 / 3)        # 2.0
+print(type(6 / 3))  # result : <class 'float'>
+print(6 // 3)       # 2
+print(type(6 // 3)) # <class 'int'>
+```
+
+지수(2^4)
+```
+print(2**4)
+```
+
+
+#### pause 1. What is the output of this code?
+```
+print(3*3+3/3-3)    # 7
+```
+
+#### pause 2. Change the code so it outputs 3?
+```
+print(3*(3+3)/3-3)  # 3
+```
+
+
+
+### old
+### 파이썬의 수학적 연산
 ```
 3 + 5
 10 - 3
@@ -96,11 +132,13 @@ print(str(70) + str(100))
 | 기호 | 내용 |
 |---|:---:|
 | () | paresntheses |
-| ** | exponents |
-| * | multiplication |
-| / | division |
 | + | addition |
 | - | subtraction |
+| * | multiplication |
+| / | division |
+| // | 몫 |
+| % | 나머지 |
+| ** | exponents(거듭제곱) |
 
 ```
 print(3*3+3/3-3)
