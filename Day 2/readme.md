@@ -1,16 +1,17 @@
 # Data Types 목차
 1. [Data Types](#1-data-types) 
-2. [Type Error, Checking and Conversion](#2-type-error-checking-and-conversion)
-3. [Mathematical Operations](#3-mathematical-operations)
-4. [Number Manipulation](#4-number-manipulation)
-
-이게 맞나.
----
     * Subscripting
     * String
     * integer : 정수
     * float : 소수
     * boolean : 참/거짓
+2. [Type Error, Checking and Conversion](#2-type-error-checking-and-conversion)
+    2.1 [new](#21-new-)
+    2.2 [old](#22-old-)
+3. [Mathematical Operations](#3-mathematical-operations)
+4. [Number Manipulation](#4-number-manipulation)
+
+---
 
 ## 1. Data Types
 ### Subscripting
