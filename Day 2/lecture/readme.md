@@ -48,7 +48,7 @@ print(type("12345"))
 
 type() 및 print() 함수를 사용하여 출력 영역에 4줄을 출력하세요.
 
-<class 'str'> <class 'int'> <class 'float'> <class 'bool'>
+`<class 'str'> <class 'int'> <class 'float'> <class 'bool'>`
 
 ```
 print(type("hello"))
