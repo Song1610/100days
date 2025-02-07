@@ -6,7 +6,7 @@
     * float : 소수
     * boolean : 참/거짓
 2. [Type Error, Checking and Conversion](#2.-Type-Error,-Checking-and-Conversion)
-    * [2.1 new ▼](#2.1-new-▼)
+    * [2.1 new](#2.1-new)
 3. [Mathematical Operations](#3.-Mathematical-Operations)
 4. [Number Manipulation](#4.-Number-Manipulation)
 
