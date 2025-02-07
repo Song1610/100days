@@ -1,6 +1,6 @@
 # Data Types 목차
-1. Data Types(#1.-Data-Types)
-2. Type Error, Checking and Conversion(#2.-Type-Error,-Checking-and-Conversion)
+1. [Data Types](#1.-Data-Types)
+2. [Type Error, Checking and Conversion](#2.-Type-Error,-Checking-and-Conversion)
 3. Mathematical Operations(#)
 4. Number Manipulation(#)
 
