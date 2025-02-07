@@ -13,19 +13,19 @@ print("123" + "345")
 ```
 * "123"  # "" 안에 있으면 어쨌든 문자로 취급
 
----------------------------------------
+
 ### integer : 정수
 
 * 123_456_789 → 123456789 로 인식
 ```
 print(123 + 345)
 ```
----------------------------------------
+
 ### float : 소수
 ```
 print(3.14159)
 ```
----------------------------------------
+
 ### boolean : 참/거짓
 ```
 print(True)
@@ -42,7 +42,7 @@ len(12345)
 → len("12345")
 print(type("12345"))
 ```
----------------------------------------
+
 #### PAUSE 2
 
 4가지 데이터 유형을 모두 출력하기 위해 4가지 유형 검사를 작성합니다.
@@ -81,7 +81,7 @@ print(70 + float("100.5"))
 print(str(70) + str(100))
 ```
 
-
+---------------------------------------
 
 ## 3. Mathematical Operations
 ### New(25-02-07) ▼
@@ -130,9 +130,7 @@ print(3*(3+3)/3-3)  # 3
 * 같은 코드줄에 하나 이상의 연산을 하면 특정 우선순위가 있음
 
 
-
-
-
+---------------------------------------
 
 ## 4. Number Manipulation
 ### New(25-02-07) ▼
@@ -168,9 +166,10 @@ height = 1.8
 is_winning = True
 print(f"Your score is = {score}, your height is {height}. You are winning is {is_winning}.")
 ```
+---------------------------------------
 
 ### old ▼
-### rounding numbers(반올림)
+#### rounding numbers(반올림)
 ```
 print(8 / 3)
 print(int(8 / 3))
@@ -184,7 +183,7 @@ result /= 2
 print(result)
 ```
 
-### user scored a point
+#### user scored a point
 score = 0
 score += 1  #score = score + 1 와 같다.
 ```
@@ -193,7 +192,7 @@ score *= 1     =     score = score * 1
 score /= 1     =     score = score / 1
 ```
 
-### score
+#### score
 ```
 print(score)
 print("your score is " + str(score))
@@ -203,7 +202,7 @@ height = 1.8
 isWinning = True
 ```
 
-### f-string : 다양한 데이터를 복잡하지 않게 넣을 수 있다.
+#### f-string : 다양한 데이터를 복잡하지 않게 넣을 수 있다.
 ```
 print(
     f"your score is {score}, your heigh is {height}, you are winning is {isWinning}"
