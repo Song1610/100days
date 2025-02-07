@@ -1,12 +1,10 @@
 # Data Types 목차
-- Data Types(#Data Types)
-  * [Subscripting](#Subscripting)
-- [Type Error, Checking and Conversion](#Type Error, Checking and Conversion)
-  * [new ▼](#new ▼)
-  * old ▼(#old ▼)
+1. Data Types(#1.-Data-Types)
+2. Type Error, Checking and Conversion
+3. Mathematical Operations
+4. Number Manipulation
 
-
-
+---
 
 ## 1. Data Types
 ### Subscripting
