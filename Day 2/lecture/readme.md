@@ -1,11 +1,18 @@
-# Data Types
+# Data Types 목차
+- [1. Data Types](# 1. Data Types)
+  * [Subscripting](#Subscripting)
+- [제목2](#제목2)
+  * [부제목2](#부제목2)
+
+
+
+
 ## 1. Data Types
 ### Subscripting
 - 가장 기본적인 데이터 타입
 ```
 print("hello"[4])
 ```
----------------------------------------
 
 ### String
 ```
