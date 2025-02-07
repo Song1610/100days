@@ -136,15 +136,16 @@ print(3*(3+3)/3-3)  # 3
 ## 4. Number Manipulation
 ### New(25-02-07) ▼
 
+bmi 추가 코드 `bmi = 84 / 1.65 ** 2`
+
+추가 : 정수(int)로 나타내기
 ```
-bmi = 84 / 1.65 ** 2
-# 추가 : 정수(int)로 나타내기
 print(int(bmi))         # 30
 ```
 
 #### Rounding a Number
+추가 : 반올림(round)로 나타내기
 ```
-# 추가 : 반올림(round)로 나타내기
 print(round(bmi))       # 31
 print(round(bmi, 2))    # 30.85
 ```
@@ -153,9 +154,10 @@ print(round(bmi, 2))    # 30.85
 User scores a point
 ```
 score = 0
-score += 1  # score = score + 1 와 같음
+score += 1
 print(score)
 ```
+score = score + 1 와 같음
 
 #### f-Strings
 예시
