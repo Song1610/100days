@@ -122,3 +122,17 @@ elif bmi <= 18.5 or bmi < 25:
 else:
     print("overweight")
 ```
+* bmi(old) : https://github.com/Song1610/100days/tree/main/Day%203/exercise/bmi
+
+# 4. Multiple if
+if 조건이 모두 참이라면 a,b,c, 모두 실행된다.
+```
+if condition 1:
+    do A
+if condition 2:
+    do B
+if condition 3:
+    do C
+```
+
+롤러코스터 예시 : https://github.com/Song1610/100days/blob/main/Day%203/lecture/multiple-if.py
