@@ -1,6 +1,7 @@
 # Day 3 목차
 
 ---
+25-02-08 작성
 
 # 1. if else
 특정 조건에 따라 A나 B를 선택함
@@ -24,7 +25,7 @@ else:
 | == | equal to |
 | != | not equal to |
 
----
+
 
 # 2. Modulo (%)
 숫자 / 2 = '나머지'
@@ -35,6 +36,7 @@ else:
 
 ## pause 2 : check odd or even
 입력한 숫자가 홀수인지 짝수인지 확인하는 코드를 작성하세요.
+
 `홀수 : odd, 짝수 : even 출력`
 
 ```
@@ -47,7 +49,7 @@ else :
     print("number is odd.")
 ```
 
----
+
 
 # 3. Nested if / else
 if 안에 또 if
@@ -71,15 +73,14 @@ else:
     do this
 ```
 
-## 롤러코스터 타기
-
-조건
+## 3.1 롤러코스터 타기
+**조건**
 1. height >= 120 이상일 때 나이 확인
 2. age
     - 12세 이하 : $5
     - 18세 이하 : $7
     - 18세 이상 : $12
-    
+
 ```
 print("Welcome to the rollercoaster!")
 height = int(input("What is your height in cm? "))
