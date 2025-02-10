@@ -138,7 +138,6 @@ if condition 3:
 롤러코스터 예시 : https://github.com/Song1610/100days/blob/main/Day%203/lecture/multiple-if.py
 
 # 5. Python Pizza
-허헣허
 pizza : https://github.com/Song1610/100days/tree/main/Day%203/exercise/pizza\
 
 
@@ -154,3 +153,7 @@ else:
 2. or
 3. not
 ![Image](https://github.com/user-attachments/assets/de699711-19c6-47bb-80bb-32acfdfec166)
+
+exercise : 기존 롤러코스터 코드에서 45 <= age <= 55 사이의 사람들에게는 무료로 티켓을 줄 수 있게 코드를 작성하세요.
+exercise link : https://github.com/Song1610/100days/blob/main/Day%203/lecture/my.py
+
