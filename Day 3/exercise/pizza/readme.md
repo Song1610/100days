@@ -1,3 +1,8 @@
+기존
+    ㄴ exercise_ver.py
+    ㄴ other.py
+25-02-10 pizza.py 추가
+
 # Instructions
 Congratulations, you've got a job at Python Pizza! Your first job is to build an automatic pizza order program.
 

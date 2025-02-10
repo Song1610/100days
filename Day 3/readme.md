@@ -136,3 +136,21 @@ if condition 3:
 ```
 
 롤러코스터 예시 : https://github.com/Song1610/100days/blob/main/Day%203/lecture/multiple-if.py
+
+# 5. Python Pizza
+허헣허
+pizza : https://github.com/Song1610/100days/tree/main/Day%203/exercise/pizza\
+
+
+# 6. Logical Operators
+```
+if condition 1 & condition 2 & condition 3:
+    do this
+else:
+    do this
+```
+논리 연산자 3가지
+1. and
+2. or
+3. not
+![Image](https://github.com/user-attachments/assets/de699711-19c6-47bb-80bb-32acfdfec166)
