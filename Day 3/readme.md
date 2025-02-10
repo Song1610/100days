@@ -157,3 +157,6 @@ else:
 exercise : 기존 롤러코스터 코드에서 45 <= age <= 55 사이의 사람들에게는 무료로 티켓을 줄 수 있게 코드를 작성하세요.
 exercise link : https://github.com/Song1610/100days/blob/main/Day%203/lecture/my.py
 
+
+# 7. Treasure Island Project
+link : https://github.com/Song1610/100days/tree/main/Day%203/project
