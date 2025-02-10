@@ -1,6 +1,14 @@
 # Day 3 목차
+1. [if else](#1-if-else)
+2. [Modulo](#2-modulo-)
+3. [Nested if/else](#3-nested-if--else)
+4. [Multiple if](#4-multiple-if)
+5. [Python Pizza](#5-python-pizza)
+6. [Logical Operators](#6-logical-operators)
+7. [Project(Treasure Island)](#7-treasure-island-project)
 
 ---
+
 25-02-08 작성
 
 # 1. if else
@@ -25,6 +33,10 @@ else:
 | == | equal to |
 | != | not equal to |
 
+<div align="right">
+
+[목차로](#day-3-목차)
+</div>
 
 
 # 2. Modulo (%)
@@ -49,7 +61,10 @@ else :
     print("number is odd.")
 ```
 
+<div align="right">
 
+[목차로](#day-3-목차)
+</div>
 
 # 3. Nested if / else
 if 안에 또 if
@@ -124,6 +139,12 @@ else:
 ```
 * bmi(old) : https://github.com/Song1610/100days/tree/main/Day%203/exercise/bmi
 
+<div align="right">
+
+[목차로](#day-3-목차)
+</div>
+
+
 # 4. Multiple if
 if 조건이 모두 참이라면 a,b,c, 모두 실행된다.
 ```
@@ -137,9 +158,19 @@ if condition 3:
 
 롤러코스터 예시 : https://github.com/Song1610/100days/blob/main/Day%203/lecture/multiple-if.py
 
+<div align="right">
+
+[목차로](#day-3-목차)
+</div>
+
+
 # 5. Python Pizza
 pizza : https://github.com/Song1610/100days/tree/main/Day%203/exercise/pizza\
 
+<div align="right">
+
+[목차로](#day-3-목차)
+</div>
 
 # 6. Logical Operators
 ```
@@ -157,6 +188,15 @@ else:
 exercise : 기존 롤러코스터 코드에서 45 <= age <= 55 사이의 사람들에게는 무료로 티켓을 줄 수 있게 코드를 작성하세요.
 exercise link : https://github.com/Song1610/100days/blob/main/Day%203/lecture/my.py
 
+<div align="right">
+
+[목차로](#day-3-목차)
+</div>
 
 # 7. Treasure Island Project
 link : https://github.com/Song1610/100days/tree/main/Day%203/project
+
+<div align="right">
+
+[목차로](#day-3-목차)
+</div>
