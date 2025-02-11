@@ -1,11 +1,11 @@
-<<<<<<< HEAD
-=======
 기존
-    ㄴ exercise_ver.py
-    ㄴ other.py
-25-02-10 pizza.py 추가
+- exercise_ver.py
+- other.py
 
->>>>>>> a9668020e9c6f66b348119ad4d57fd25e5964dad
+추가
+- 25-02-10 pizza.py
+
+
 # Instructions
 Congratulations, you've got a job at Python Pizza! Your first job is to build an automatic pizza order program.
 
