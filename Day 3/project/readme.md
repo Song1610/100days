@@ -38,3 +38,10 @@ Have a think about how you might write your program to make a player's answers l
 # Solution
 
 [https://replit.com/@appbrewery/treasure-island-end#main.py](https://replit.com/@appbrewery/treasure-island-end)
+<<<<<<< HEAD
+=======
+
+# Flow chart
+아래 차트를 보고 코드를 작성하세요.
+<img width="845" alt="Image" src="https://github.com/user-attachments/assets/f593cf21-de64-4b3d-b27f-313b74a73d5f" />
+>>>>>>> a9668020e9c6f66b348119ad4d57fd25e5964dad

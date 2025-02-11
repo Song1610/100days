@@ -26,3 +26,34 @@ if height >= 120:
 
 else:
   print("Sorry, you have to grow taller before you can ride.")
+<<<<<<< HEAD
+=======
+
+#################################################################
+# new(25-02-08)
+print("Welcome to the rollercoaster!")
+height = int(input("What is your height in cm? "))
+bill = 0
+
+if height >= 120:
+    print("You can ride the rollercoaster")
+    age = int(input("What is your age? "))
+    if age <= 12:
+        bill = 5
+        print("child tickets are $5.")
+    elif age <= 18:
+        bill = 7
+        print("youth tickets are $7.")
+    else:
+        bill = 12
+        print("adult tickets are $12.")
+
+    photo_q = input("Do you want to photo?(y/n) ")
+    if photo_q == "y":
+        bill += 3
+        print(f"total bill : ${bill}")
+    else:
+        print(f"total bill : ${bill}")
+else:
+    print("Sorry you have to grow taller before you can ride.")
+>>>>>>> a9668020e9c6f66b348119ad4d57fd25e5964dad
