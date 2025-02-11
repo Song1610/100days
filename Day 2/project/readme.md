@@ -1,12 +1,6 @@
-<<<<<<< HEAD
-## Tip Calculator
-
-# Instructions
-=======
 # Tip Calculator
 
 ## Instructions
->>>>>>> a9668020e9c6f66b348119ad4d57fd25e5964dad
 
 If the bill was $150.00, split between 5 people, with 12% tip. 
 
@@ -19,11 +13,7 @@ Thus everyone's share of the total bill is $30.00 plus a $3.60 tip.
 Tip: There are 2 ways to round a number. You might have to do some Googling to solve this.💪
 
 
-<<<<<<< HEAD
-# Example Input
-=======
 ## Example Input
->>>>>>> a9668020e9c6f66b348119ad4d57fd25e5964dad
 
 ```
 Welcome to the tip calculator!
@@ -32,33 +22,20 @@ How much tip would you like to give? 10, 12, or 15? 12
 How many people to split the bill? 7
 ```
 
-<<<<<<< HEAD
-# Example Output
-=======
 ## Example Output
->>>>>>> a9668020e9c6f66b348119ad4d57fd25e5964dad
 
 ```
 Each person should pay: $19.93
 ```
 
 
-<<<<<<< HEAD
-# Hint
-=======
 ## Hint
->>>>>>> a9668020e9c6f66b348119ad4d57fd25e5964dad
 
 1. [How to round a number to 2 decimal places in Python](https://www.google.com/search?q=how+to+round+number+to+2+decimal+places+python&oq=how+to+round+number+to+2+decimal)
 2. [How to limit a float to two decimal places in Python](https://www.kite.com/python/answers/how-to-limit-a-float-to-two-decimal-places-in-python)
-
-<<<<<<< HEAD
-=======
-
 
 ### Demo
 https://appbrewery.github.io/python-day2-demo/
 
 ### Very Optional Reading: Floating Point Arithmetic
 https://docs.python.org/3/tutorial/floatingpoint.html
->>>>>>> a9668020e9c6f66b348119ad4d57fd25e5964dad
