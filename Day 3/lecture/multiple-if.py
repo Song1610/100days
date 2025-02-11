@@ -26,10 +26,9 @@ if height >= 120:
 
 else:
   print("Sorry, you have to grow taller before you can ride.")
-<<<<<<< HEAD
-=======
-
+z
 #################################################################
+
 # new(25-02-08)
 print("Welcome to the rollercoaster!")
 height = int(input("What is your height in cm? "))
@@ -56,4 +55,4 @@ if height >= 120:
         print(f"total bill : ${bill}")
 else:
     print("Sorry you have to grow taller before you can ride.")
->>>>>>> a9668020e9c6f66b348119ad4d57fd25e5964dad
+Z
