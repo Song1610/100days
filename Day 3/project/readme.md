@@ -37,10 +37,9 @@ Have a think about how you might write your program to make a player's answers l
 
 # Solution
 
-[replit solution](https://replit.com/@appbrewery/treasure-island-end)
-[solution 1.py](https://github.com/Song1610/100days/blob/main/Day%203/project/solution1.py)
+1. [replit solution](https://replit.com/@appbrewery/treasure-island-end)
+2. [solution 1.py](https://github.com/Song1610/100days/blob/main/Day%203/project/solution1.py)
 
 # Flow chart
 아래 차트를 보고 코드를 작성하세요.
 <img width="845" alt="Image" src="https://github.com/user-attachments/assets/f593cf21-de64-4b3d-b27f-313b74a73d5f" />
-gma
