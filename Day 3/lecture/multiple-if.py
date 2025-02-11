@@ -26,7 +26,7 @@ if height >= 120:
 
 else:
   print("Sorry, you have to grow taller before you can ride.")
-z
+
 #################################################################
 
 # new(25-02-08)
@@ -55,4 +55,3 @@ if height >= 120:
         print(f"total bill : ${bill}")
 else:
     print("Sorry you have to grow taller before you can ride.")
-Z
