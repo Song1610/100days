@@ -7,7 +7,7 @@
 ❖ [참고링크](https://docs.python.org/3/library/random.html)
 
 ## random.randint(a,b)
-a <= n <= b
+범위 : a <= n <= b
 ```
 import random
 
@@ -38,3 +38,23 @@ print(my_module.my_favourite_number)
 
 아래 이미지로 설명 대체
 ![Image](https://github.com/user-attachments/assets/9a248bb4-64a0-4902-888e-0ed96a88843e)
+
+
+## random.random()
+- 난수 부동 소수점 수를 생성하는 random 모듈
+- 범위 : 0.0 <= x <= 1.0
+- 파이썬에서 난수를 다룰 때 많이 사용하는 핵심 기술 중 하나
+- 0부터 1까지의 숫자 중 부동점 수를 무작위로 생성
+
+```
+import random
+
+random_number0_1 = random.random()
+print(random_number0_1)
+
+# print 1 = 0.30473346318301686
+# print 2 = 0.8813012984957519
+```
+
+![Image](https://github.com/user-attachments/assets/8eebfa84-5fb8-43e5-b627-468f0df519ac)
+
