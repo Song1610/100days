@@ -90,6 +90,20 @@ print(random_float)
 # print 3 = 1.8434584518167245
 ```
 
-
 ### random.random vs random.uniform 차이점
 ![Image](https://github.com/user-attachments/assets/5af73d9b-31fa-4a38-a499-f7c3c72abf4d)
+
+
+##  Pause 1. head or tail
+random 모듈을 사용하여 동전의 앞,뒷면이 무작위로 나오게 코드를 작성하세요.
+
+```
+import random
+
+h_t = random.randint(0,1)
+
+if h_t == 0:
+    print("Heads")
+else:
+    print("Tails")
+```
