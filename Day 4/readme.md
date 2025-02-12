@@ -1,4 +1,11 @@
 # Day 4 목차
+1. random
+    - [random.randint](#randomrandintab)
+    - [module](#module)
+    - [random.random](#randomrandom)
+    - [random.uniform](#randomuniformab)
+    - [Pause 1. head or tail](#pause-1-head-or-tail)
+2. 
 
 ---
 25-02-12 작성
@@ -21,6 +28,11 @@ print(random_int)
 
 출력 시, 1 ~ 10 범위의 정수가 출력된다.
 
+<div align="right">
+
+[목차로](#day-4-목차)
+</div>
+
 
 ## module
 **random 모듈은 파이썬 팀이 만든 모듈이다.**
@@ -39,6 +51,11 @@ print(my_module.my_favourite_number)
 
 아래 이미지로 설명 대체
 ![Image](https://github.com/user-attachments/assets/9a248bb4-64a0-4902-888e-0ed96a88843e)
+
+<div align="right">
+
+[목차로](#day-4-목차)
+</div>
 
 
 ## random.random()
@@ -73,7 +90,10 @@ print(random_number0_1)
 모듈 순서 의미
 ![Image](https://github.com/user-attachments/assets/8eebfa84-5fb8-43e5-b627-468f0df519ac)
 
+<div align="right">
 
+[목차로](#day-4-목차)
+</div>
 
 ## random.uniform(a,b)
 - 범위 : a <= n <= b
@@ -94,6 +114,11 @@ print(random_float)
 ![Image](https://github.com/user-attachments/assets/5af73d9b-31fa-4a38-a499-f7c3c72abf4d)
 
 
+<div align="right">
+
+[목차로](#day-4-목차)
+</div>
+
 ##  Pause 1. head or tail
 random 모듈을 사용하여 동전의 앞,뒷면이 무작위로 나오게 코드를 작성하세요.
 
@@ -107,3 +132,11 @@ if h_t == 0:
 else:
     print("Tails")
 ```
+
+<div align="right">
+
+[목차로](#day-4-목차)
+</div>
+
+---
+2. 
