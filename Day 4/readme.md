@@ -7,7 +7,8 @@
 ❖ [참고링크](https://docs.python.org/3/library/random.html)
 
 ## random.randint(a,b)
-범위 : a <= n <= b
+- 범위 : a <= n <= b
+- [참고링크](https://docs.python.org/3/library/random.html#random.randint)
 ```
 import random
 
@@ -45,6 +46,7 @@ print(my_module.my_favourite_number)
 - 범위 : 0.0 <= x <= 1.0
 - 파이썬에서 난수를 다룰 때 많이 사용하는 핵심 기술 중 하나
 - 0부터 1까지의 숫자 중 부동점 수를 무작위로 생성
+- [참고링크](https://docs.python.org/3/library/random.html#random.random)
 
 ```
 import random
@@ -56,5 +58,35 @@ print(random_number0_1)
 # print 2 = 0.8813012984957519
 ```
 
+0.0 <= x <= 10.0 까지 임의의 부동 소수점 수를 생성
+```
+import random
+
+random_number0_1 = random.random() * 10
+print(random_number0_1)
+
+# print 1 = 3.110870060485981
+# print 2 = 7.311563937128691
+# print 3 = 0.4456769070095645
+```
+
+모듈 순서 의미
 ![Image](https://github.com/user-attachments/assets/8eebfa84-5fb8-43e5-b627-468f0df519ac)
 
+
+
+## random.uniform(a,b)
+- 범위 : a <= n <= b
+- [참고링크](https://docs.python.org/3/library/random.html#random.uniform)
+```import random
+
+random_float = random.uniform(1,10)
+print(random_float)
+
+# print 1 = 8.30030512496964
+# print 2 = 3.1639974928791937
+# print 3 = 1.8434584518167245```
+
+
+### random.random vs random.uniform 차이점
+![Image](https://github.com/user-attachments/assets/5af73d9b-31fa-4a38-a499-f7c3c72abf4d)
