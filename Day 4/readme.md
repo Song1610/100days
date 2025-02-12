@@ -78,14 +78,17 @@ print(random_number0_1)
 ## random.uniform(a,b)
 - 범위 : a <= n <= b
 - [참고링크](https://docs.python.org/3/library/random.html#random.uniform)
-```import random
+
+```
+import random
 
 random_float = random.uniform(1,10)
 print(random_float)
 
 # print 1 = 8.30030512496964
 # print 2 = 3.1639974928791937
-# print 3 = 1.8434584518167245```
+# print 3 = 1.8434584518167245
+```
 
 
 ### random.random vs random.uniform 차이점
