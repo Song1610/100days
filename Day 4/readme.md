@@ -24,7 +24,7 @@ print(random_int)
 ```
 `random 모듈 사용 시 import random 명시 필요`
 
-1 <= n <= 10 이며 *'정수'*이다. 
+1 <= n <= 10 이며 _'정수'_ 이다. 
 
 출력 시, 1 ~ 10 범위의 정수가 출력된다.
 
@@ -142,7 +142,7 @@ else:
 # 2. List
 파이썬에서 그룹화 된 데이터를 정리하고 저장하는 방법(Data Strucrture)
 
-list 구조
+## list 구조
 ```
 fruits = ["item 1", "item 2", "item 3"]
 ```
@@ -156,6 +156,7 @@ states_of_america = ["Delaware", "Pennsylvania", "New Jersey", "Georgia", "Conne
 print(states_of_america)
 ```
 
+## list index
 list 지정 데이터 출력(인덱스) `인덱스 : '0'부터 시작`
 ```
 print(states_of_america[0])
@@ -169,6 +170,7 @@ print(states_of_america[-1])    # Hawaii
 print(states_of_america[-2])    # Alaska
 ```
 
+## list data 추가
 list data 변경
 ```
 states_of_america[1] = "pencillla"
@@ -195,4 +197,25 @@ print(states_of_america)
 
 ['Delaware', 'pencillla', ..., 'Hawaii', 'caratland', 'jackland', 'pioneeland']
 
+```
+
+## Banker Roulette
+친구 목록에서 무작위로 이름을 선택하는 코드를 작성하세요.
+
+* 힌트
+    - 작성방법 : 2가지
+    - 인덱스를 사용하여 목록에서 항목을 선택하는 난수를 생성하는 방법
+    - python docs를 이용하여 데이터를 가져오는 방법
+
+```
+import random
+
+friends = ["Alice", "Bob", "Charlie", "David", "Emanuel"]
+
+# 첫번째 방법
+f_index = random.randint(0,4)
+print(friends[f_index])
+
+# 두번째 방법
+print(random.choice(friends))
 ```
