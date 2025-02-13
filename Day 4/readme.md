@@ -273,7 +273,7 @@ print(dirty_dozen)
 [['딸기', '사과', '포도', '배'], ['치커리', '케일', '상추', '감자', '오이']]
 ```
 
-### index 안에 index
+### 참고: index 안에 index
 ```
 dirty_dozen = ["딸기", "사과", "포도", "배", "치커리", "케일","상추","감자","오이"]
 ```
@@ -287,17 +287,19 @@ print(dirty_dozen[1][2])
 ```
 출력 = '상추'
 
-dirty_dozen[1] = fruites(0)와 vegetables(1) 중에 1, dirty_dozen[1][2] = vegetables(1) 내의 "상추"(2)
+왜냐면 dirty_dozen'[1]'[2] = fruites(0)와 vegetables(1) 중에 vegetables 선택,
+
+dirty_dozen[1]'[2]' = vegetables(1) 내의 "상추"(2) 선택
 
 ```
 list = [['a', 'b', 'c'], 'e', 'f', 'g']
-       __________________
+       ________________
 1st         [0]          [1]  [2]  [3]
 2rd      [0]  [1]  [2]
 
-# print(list[0][1]) = b // print(list[1]) = e
 ```
-| list | [['a', 'b', 'c'], 'e', 'f', 'g'] |
-|         ---------------- |
-| 1st | [0] || [1] || [2] || [3] |
-| 2rd | [0] || [1] || [2] |
+print(list[0][1]) = b
+
+print(list[1]) = e
+
+둘의 결과값은 전혀 다르다.
