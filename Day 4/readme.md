@@ -5,7 +5,7 @@
     - [random.random](#randomrandom)
     - [random.uniform](#randomuniformab)
     - [Pause 1. head or tail](#pause-1-head-or-tail)
-2. 
+2. List
 
 ---
 25-02-12 작성
@@ -139,4 +139,60 @@ else:
 </div>
 
 ---
-2. 
+2. List
+파이썬에서 그룹화 된 데이터를 정리하고 저장하는 방법(Data Strucrture)
+
+list 구조
+```
+fruits = ["item 1", "item 2", "item 3"]
+```
+
+[data strucrture 참고링크](https://docs.python.org/3/tutorial/datastructures.html)
+
+list 전체 데이터 출력
+```
+states_of_america = ["Delaware", "Pennsylvania", "New Jersey", "Georgia", "Connecticut", "Massachusetts", "Maryland", "South Carolina", "New Hampshire", "Virginia", "New York", "North Carolina", "Rhode Island", "Vermont", "Kentucky", "Tennessee", "Ohio", "Louisiana", "Indiana", "Mississippi", "Illinois", "Alabama", "Maine", "Missouri", "Arkansas", "Michigan", "Florida", "Texas", "Iowa", "Wisconsin", "California", "Minnesota", "Oregon", "Kansas", "West Virginia", "Nevada", "Nebraska", "Colorado", "North Dakota", "South Dakota", "Montana", "Washington", "Idaho", "Wyoming", "Utah", "Oklahoma", "New Mexico", "Arizona", "Alaska", "Hawaii"]
+
+print(states_of_america)
+```
+
+list 지정 데이터 출력
+```
+print(states_of_america[0])
+
+# Delaware
+```
+
+list 맨 마지막 데이터 출력
+```
+print(states_of_america[-1])    # Hawaii
+print(states_of_america[-2])    # Alaska
+```
+
+list data 변경
+```
+states_of_america[1] = "pencillla"
+
+print(states_of_america[1]) # pencillla 출력
+```
+
+list data 추가(단수)
+```
+states_of_america.append("caratland")
+
+print(states_of_america)
+
+['Delaware', 'pencillla', ..., 'Alaska', 'Hawaii', 'caratland']
+```
+[data 추가 참고링크](https://docs.python.org/3/tutorial/datastructures.html#more-on-lists)
+
+
+list data 추가(복수)
+```
+states_of_america.extend(["caratland", "jackland", "pioneeland"])
+
+print(states_of_america)
+
+['Delaware', 'pencillla', ..., 'Hawaii', 'caratland', 'jackland', 'pioneeland']
+
+```
