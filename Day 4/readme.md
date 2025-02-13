@@ -306,4 +306,6 @@ print(list[1]) = e
 ---
 
 # 가위바위보 프로젝트
-[가위바위보](https://github.com/Song1610/100days/tree/main/Day%204/project)
+[가위바위보 프로젝트](https://github.com/Song1610/100days/tree/main/Day%204/project)
+
+[demo link](https://appbrewery.github.io/python-day4-demo/)
