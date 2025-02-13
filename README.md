@@ -11,5 +11,5 @@ old
 - [Day 7](https://github.com/Song1610/100days/tree/main/Day%207)
 - [Day 8](https://github.com/Song1610/100days/tree/main/Day%208)
 - [Day 9](https://github.com/Song1610/100days/tree/main/Day%209)
-- [Day 10]()
-- [Day 11]()
+- [Day 10](https://github.com/Song1610/100days/tree/main/Day10)
+- [Day 11](https://github.com/Song1610/100days/tree/main/Day11)
