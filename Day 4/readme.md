@@ -139,7 +139,7 @@ else:
 </div>
 
 ---
-2. List
+# 2. List
 파이썬에서 그룹화 된 데이터를 정리하고 저장하는 방법(Data Strucrture)
 
 list 구조
@@ -147,7 +147,7 @@ list 구조
 fruits = ["item 1", "item 2", "item 3"]
 ```
 
-[data strucrture 참고링크](https://docs.python.org/3/tutorial/datastructures.html)
+[data structure 참고링크](https://docs.python.org/3/tutorial/datastructures.html)
 
 list 전체 데이터 출력
 ```
