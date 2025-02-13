@@ -156,14 +156,14 @@ states_of_america = ["Delaware", "Pennsylvania", "New Jersey", "Georgia", "Conne
 print(states_of_america)
 ```
 
-list 지정 데이터 출력
+list 지정 데이터 출력(인덱스) `인덱스 : '0'부터 시작`
 ```
 print(states_of_america[0])
 
 # Delaware
 ```
 
-list 맨 마지막 데이터 출력
+list 맨 마지막 데이터 출력  `음극 인덱스 : 숫자에 '-'를 붙여줘야함`
 ```
 print(states_of_america[-1])    # Hawaii
 print(states_of_america[-2])    # Alaska
