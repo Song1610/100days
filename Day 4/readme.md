@@ -302,3 +302,8 @@ print(list[0][1]) = b
 print(list[1]) = e
 
 둘의 결과값은 전혀 다르다.
+
+---
+
+# 가위바위보 프로젝트
+[가위바위보](https://github.com/Song1610/100days/tree/main/Day%204/project)
