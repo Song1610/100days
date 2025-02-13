@@ -149,6 +149,7 @@ fruits = ["item 1", "item 2", "item 3"]
 
 [data structure 참고링크](https://docs.python.org/3/tutorial/datastructures.html)
 
+## list index
 list 전체 데이터 출력
 ```
 states_of_america = ["Delaware", "Pennsylvania", "New Jersey", "Georgia", "Connecticut", "Massachusetts", "Maryland", "South Carolina", "New Hampshire", "Virginia", "New York", "North Carolina", "Rhode Island", "Vermont", "Kentucky", "Tennessee", "Ohio", "Louisiana", "Indiana", "Mississippi", "Illinois", "Alabama", "Maine", "Missouri", "Arkansas", "Michigan", "Florida", "Texas", "Iowa", "Wisconsin", "California", "Minnesota", "Oregon", "Kansas", "West Virginia", "Nevada", "Nebraska", "Colorado", "North Dakota", "South Dakota", "Montana", "Washington", "Idaho", "Wyoming", "Utah", "Oklahoma", "New Mexico", "Arizona", "Alaska", "Hawaii"]
@@ -156,7 +157,6 @@ states_of_america = ["Delaware", "Pennsylvania", "New Jersey", "Georgia", "Conne
 print(states_of_america)
 ```
 
-## list index
 list 지정 데이터 출력(인덱스) `인덱스 : '0'부터 시작`
 ```
 print(states_of_america[0])
@@ -218,4 +218,57 @@ print(friends[f_index])
 
 # 두번째 방법
 print(random.choice(friends))
+```
+
+## Index Error
+```
+print(len(states_of_america))
+```
+len 함수로 출력 시 states_of_america 인덱스 개수 = 50
+
+하지만 print(states_of_america[50]) 을 실행하면 인덱스 에러가 뜬다.
+
+`index는 항상 0부터 시작`
+
+[len() 참고링크](https://docs.python.org/3/library/functions.html#len)
+
+print(states_of_america[49])를 출력해야함
+- -1을 사용하여 출력하세요.
+```
+print(states_of_america[49]) 를 출력하는 방법
+
+# No.1
+num_america = len(states_of_america)
+print(states_of_america[num_america - 1])
+
+# No.2
+num_america_2 = len(states_of_america) -1
+print(states_of_america[num_america_2])
+```
+
+## Nested list
+list 안에 list
+
+### 구조
+```
+list = [list1, list2]
+# list = [[list1의 데이터], [list2의 데이터]]
+```
+
+### 예시
+dirty_dozen의 데이터를 과일/채소로 구분해서 출력
+```
+# dirty_dozen = ["딸기", "사과", "포도", "배", "치커리", "케일","상추","감자","오이"]
+
+# 과일과 채소를 구분해서 list
+fruits = ["딸기", "사과", "포도", "배"]
+vegetables = ["치커리", "케일", "상추", "감자", "오이"]
+
+dirty_dozen = [fruits, vegetables]
+print(dirty_dozen)
+```
+
+위 코드 print 시 결과(▾)
+```
+[['딸기', '사과', '포도', '배'], ['치커리', '케일', '상추', '감자', '오이']]
 ```
