@@ -53,7 +53,7 @@ dirty_dozen = [fruits, vegetables]
 
 print(dirty_dozen)
 print(
-    dirty_dozen[1][2]
+dirty_dozen[1][2]
 )  # dirty_dozen[1] = fruites(0)와 vegetables(1) 중에 1, dirty_dozen[1][2] = vegetables(1) 내의 Tomatoes(2)
 
 # list = [['a', 'b', 'c'], 'e', 'f', 'g']
