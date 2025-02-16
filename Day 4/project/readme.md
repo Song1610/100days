@@ -25,4 +25,4 @@ You can find the "official" rules of the game on [the World Rock Paper Scissors 
 
 
 # flowchart(25-02-16)
-![Image](https://github.com/user-attachments/assets/3468e15a-a800-44b5-a305-0be9ff6c5b35)
+![Image](https://github.com/user-attachments/assets/5150fa6f-7b06-44b1-9aae-be2eb1689874)
