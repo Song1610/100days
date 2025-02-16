@@ -22,3 +22,7 @@ You can find the "official" rules of the game on [the World Rock Paper Scissors 
 # Solution
 
 [https://replit.com/@appbrewery/rock-paper-scissors-end](https://replit.com/@appbrewery/rock-paper-scissors-end)
+
+
+# flowchart(25-02-16)
+![Image](https://github.com/user-attachments/assets/3468e15a-a800-44b5-a305-0be9ff6c5b35)
