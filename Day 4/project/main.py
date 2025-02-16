@@ -26,38 +26,42 @@ scissors = '''
       (____)
 ---.__(___)
 '''
+# print함수가 먹히지 않음
+# import random
 
-import random
+# image = [rock, paper, scissors]
 
-image = [rock, paper, scissors]
+# question = int(input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors. "))
 
-question = int(input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors. "))
+# user = image[question]
+# computer = random.choice(image)
+# print("user:")
+# print(user)
+# print("computer:")
+# print(computer)
 
-user = image[question]
-computer = random.choice(image)
-print("user:")
-print(user)
-print("computer:")
-print(computer)
+# if user == computer:
+#     print("It's a draw!")
+# if user == 0:
+#     if computer == 1:
+#         print("You lose!")
+#     elif computer == 2:
+#         print("You win!")
+# elif user == 1:
+#     if computer == 0:
+#         print("You win!")
+#     elif computer == 2:
+#         print("You lose!")
+# elif user == 2:
+#     if computer == 0:
+#         print("You lose!")
+#     lif computer == 1:
+#         print("You win!")
 
-if user == computer:
-    print("It's a draw!")
-if user == 0:
-    if computer == 1:
-        print("You lose!")
-    elif computer == 2:
-        print("You win!")
-elif user == 1:
-    if computer == 0:
-        print("You win!")
-    elif computer == 2:
-        print("You lose!")
-elif user == 2:
-    if computer == 0:
-        print("You lose!")
-    elif computer == 1:
-        print("You win!")
 
+
+
+#### 수정할 것
 import random
 
 image = [rock, paper, scissors]
@@ -82,3 +86,5 @@ elif user < computer:
     print("you lose.")
 elif user > computer:
     print("you win!")
+# 아니 뭐야 이상해
+# 소스작업을 눌러야돼? ㅅㅂ ㅇㄴㄹㅇㄴㄹ
