@@ -26,65 +26,28 @@ scissors = '''
       (____)
 ---.__(___)
 '''
-# print함수가 먹히지 않음
-# import random
-
-# image = [rock, paper, scissors]
-
-# question = int(input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors. "))
-
-# user = image[question]
-# computer = random.choice(image)
-# print("user:")
-# print(user)
-# print("computer:")
-# print(computer)
-
-# if user == computer:
-#     print("It's a draw!")
-# if user == 0:
-#     if computer == 1:
-#         print("You lose!")
-#     elif computer == 2:
-#         print("You win!")
-# elif user == 1:
-#     if computer == 0:
-#         print("You win!")
-#     elif computer == 2:
-#         print("You lose!")
-# elif user == 2:
-#     if computer == 0:
-#         print("You lose!")
-#     lif computer == 1:
-#         print("You win!")
-
-
-
-
-#### 수정할 것
 import random
 
 image = [rock, paper, scissors]
 
-question = int(input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors. "))
+user_choice = int(input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors. "))
+computer_choice = random.randint(0,2)
 
-user = image[question]
-computer = random.choice(image)
+
 print("user:")
-print(user)
+print(image[user_choice])
 print("computer:")
-print(computer)
+print(image[computer_choice])
 
-# and 코드 안먹힘 
-if user == computer:
+if user_choice >= 3 or user_choice < 0:
+    print("you typed an invalid number. you lose.")
+elif user_choice == computer_choice:
     print("It's a draw!")
-elif user == 0 and computer == 2:
+elif user_choice == 0 and computer_choice == 2:
     print("you win!")
-elif user == 2 and computer == 0:
+elif user_choice == 2 and computer_choice == 0:
     print("you lose.")
-elif user < computer:
+elif user_choice < computer_choice:
     print("you lose.")
-elif user > computer:
+elif user_choice > computer_choice:
     print("you win!")
-# 아니 뭐야 이상해
-# 소스작업을 눌러야돼? ㅅㅂ ㅇㄴㄹㅇㄴㄹ
