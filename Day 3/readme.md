@@ -13,7 +13,7 @@
 
 # 1. if else
 특정 조건에 따라 A나 B를 선택함
-```
+```py
 print("Welcome to the rollercoaster!")
 height = int(input("What is your height in cm? "))
 
@@ -51,7 +51,7 @@ else:
 
 `홀수 : odd, 짝수 : even 출력`
 
-```
+```py
 number = int(input("check number : "))
 
 num = number % 2
@@ -68,7 +68,7 @@ else :
 
 # 3. Nested if / else
 if 안에 또 if
-```
+```py
 if condition:
     if another condition:
         do this
@@ -79,7 +79,7 @@ else:
 ```
 
 if / elif / else
-```
+```py
 if condition 1:
     do A
 elif condition 2:
@@ -96,7 +96,7 @@ else:
     - 18세 이하 : $7
     - 18세 이상 : $12
 
-```
+```py
 print("Welcome to the rollercoaster!")
 height = int(input("What is your height in cm? "))
 
@@ -121,7 +121,8 @@ else:
     - bmi is under 18.5 (not including), print out "underweight"
     - bmi is between 18.5 (including) and 25 (not including), print out "normal weight"
     - bmi is 25 (including) or over, print out "overweight"
-```
+
+```py
 weight = 85
 height = 1.85
 
@@ -147,7 +148,7 @@ else:
 
 # 4. Multiple if
 if 조건이 모두 참이라면 a,b,c, 모두 실행된다.
-```
+```py
 if condition 1:
     do A
 if condition 2:
@@ -173,7 +174,7 @@ pizza : https://github.com/Song1610/100days/tree/main/Day%203/exercise/pizza\
 </div>
 
 # 6. Logical Operators
-```
+```py
 if condition 1 & condition 2 & condition 3:
     do this
 else:

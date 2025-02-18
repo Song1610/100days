@@ -1,14 +1,16 @@
-# Instructions
-You are going to write a program that automatically prints the solution to the FizzBuzz game. These are the rules of the FizzBuzz game:
+# 지침
+FizzBuzz 게임의 해답을 자동으로 출력하는 프로그램을 작성하려고 합니다.
 
-Your program should print each number from 1 to 100 in turn and include number 100.
+FizzBuzz 게임의 규칙은 다음과 같습니다.
 
-* When the number is divisible by 3 then instead of printing the number it should print "Fizz".
-* When the number is divisible by 5, then instead of printing the number it should print "Buzz".`
-* And if the number is divisible by both 3 and 5 e.g. 15 then instead of the number it should print "FizzBuzz"
+프로그램은 1에서 100까지 각 숫자를 차례로 출력하고 숫자 100을 포함해야 합니다.
 
-e.g. it might start off like this:
+* 숫자가 3으로 나누어 떨어지면 숫자를 출력하는 대신 "Fizz"를 출력해야 합니다.
+* 숫자가 5로 나누어 떨어지면 숫자를 출력하는 대신 "Buzz"를 출력해야 합니다.`
+* 숫자가 3과 5로 모두 나누어 떨어지면(예: 15) 숫자 대신 "FizzBuzz"를 출력해야 합니다.
 
+예: 다음과 같이 시작할 수 있습니다.
+```
 1
 2
 Fizz
@@ -24,8 +26,10 @@ Fizz
 13
 14
 FizzBuzz
-...etc
+...등
+```
 
-## Hint
-* Remember your answer should start from 1 and go up to and including 100.
-* Each number/text should be printed on a separate line.
+## 힌트
+* 답은 1부터 시작해서 100까지 올라가야 합니다.
+* 각 숫자/텍스트는 별도의 줄에 인쇄해야 합니다.
+* 3일차에 모듈로 연산자 %를 사용하여 숫자가 홀수인지 짝수인지 확인하는 방법을 배웠습니다. 숫자가 3으로 나누어 떨어지는지 5로 나누어 떨어지는지 확인하려면 동일한 개념을 사용해야 합니다.

@@ -16,7 +16,8 @@
 ## random.randint(a,b)
 - 범위 : a <= n <= b
 - [참고링크](https://docs.python.org/3/library/random.html#random.randint)
-```
+
+```py
 import random
 
 random_int = random.randint(1, 10)
@@ -37,7 +38,7 @@ print(random_int)
 ## module
 **random 모듈은 파이썬 팀이 만든 모듈이다.**
 
-```
+```py
 import random
 import my_module
 
@@ -65,7 +66,7 @@ print(my_module.my_favourite_number)
 - 0부터 1까지의 숫자 중 부동점 수를 무작위로 생성
 - [참고링크](https://docs.python.org/3/library/random.html#random.random)
 
-```
+```py
 import random
 
 random_number0_1 = random.random()
@@ -76,7 +77,7 @@ print(random_number0_1)
 ```
 
 0.0 <= x <= 10.0 까지 임의의 부동 소수점 수를 생성
-```
+```py
 import random
 
 random_number0_1 = random.random() * 10
@@ -99,7 +100,7 @@ print(random_number0_1)
 - 범위 : a <= n <= b
 - [참고링크](https://docs.python.org/3/library/random.html#random.uniform)
 
-```
+```py
 import random
 
 random_float = random.uniform(1,10)
@@ -122,7 +123,7 @@ print(random_float)
 ##  Pause 1. head or tail
 random 모듈을 사용하여 동전의 앞,뒷면이 무작위로 나오게 코드를 작성하세요.
 
-```
+```py
 import random
 
 h_t = random.randint(0,1)
@@ -143,7 +144,7 @@ else:
 파이썬에서 그룹화 된 데이터를 정리하고 저장하는 방법(Data Strucrture)
 
 ## list 구조
-```
+```py
 fruits = ["item 1", "item 2", "item 3"]
 ```
 
@@ -151,35 +152,35 @@ fruits = ["item 1", "item 2", "item 3"]
 
 ## list index
 list 전체 데이터 출력
-```
+```py
 states_of_america = ["Delaware", "Pennsylvania", "New Jersey", "Georgia", "Connecticut", "Massachusetts", "Maryland", "South Carolina", "New Hampshire", "Virginia", "New York", "North Carolina", "Rhode Island", "Vermont", "Kentucky", "Tennessee", "Ohio", "Louisiana", "Indiana", "Mississippi", "Illinois", "Alabama", "Maine", "Missouri", "Arkansas", "Michigan", "Florida", "Texas", "Iowa", "Wisconsin", "California", "Minnesota", "Oregon", "Kansas", "West Virginia", "Nevada", "Nebraska", "Colorado", "North Dakota", "South Dakota", "Montana", "Washington", "Idaho", "Wyoming", "Utah", "Oklahoma", "New Mexico", "Arizona", "Alaska", "Hawaii"]
 
 print(states_of_america)
 ```
 
 list 지정 데이터 출력(인덱스) `인덱스 : '0'부터 시작`
-```
+```py
 print(states_of_america[0])
 
 # Delaware
 ```
 
 list 맨 마지막 데이터 출력  `음극 인덱스 : 숫자에 '-'를 붙여줘야함`
-```
+```py
 print(states_of_america[-1])    # Hawaii
 print(states_of_america[-2])    # Alaska
 ```
 
 ## list data 추가
 list data 변경
-```
+```py
 states_of_america[1] = "pencillla"
 
 print(states_of_america[1]) # pencillla 출력
 ```
 
 list data 추가(단수)
-```
+```py
 states_of_america.append("caratland")
 
 print(states_of_america)
@@ -190,7 +191,7 @@ print(states_of_america)
 
 
 list data 추가(복수)
-```
+```py
 states_of_america.extend(["caratland", "jackland", "pioneeland"])
 
 print(states_of_america)
@@ -207,7 +208,7 @@ print(states_of_america)
     - 인덱스를 사용하여 목록에서 항목을 선택하는 난수를 생성하는 방법
     - python docs를 이용하여 데이터를 가져오는 방법
 
-```
+```py
 import random
 
 friends = ["Alice", "Bob", "Charlie", "David", "Emanuel"]
@@ -221,7 +222,7 @@ print(random.choice(friends))
 ```
 
 ## Index Error
-```
+```py
 print(len(states_of_america))
 ```
 len 함수로 출력 시 states_of_america 인덱스 개수 = 50
@@ -234,7 +235,7 @@ len 함수로 출력 시 states_of_america 인덱스 개수 = 50
 
 print(states_of_america[49])를 출력해야함
 - -1을 사용하여 출력하세요.
-```
+```py
 print(states_of_america[49]) 를 출력하는 방법
 
 # No.1
@@ -257,7 +258,7 @@ list = [list1, list2]
 
 ### 예시
 dirty_dozen의 데이터를 과일/채소로 구분해서 출력
-```
+```py
 # dirty_dozen = ["딸기", "사과", "포도", "배", "치커리", "케일","상추","감자","오이"]
 
 # 과일과 채소를 구분해서 list
@@ -269,7 +270,7 @@ print(dirty_dozen)
 ```
 
 위 코드 print 시 결과(▾)
-```
+```py
 [['딸기', '사과', '포도', '배'], ['치커리', '케일', '상추', '감자', '오이']]
 ```
 
@@ -281,7 +282,7 @@ dirty_dozen = ["딸기", "사과", "포도", "배", "치커리", "케일","상�
 
 
 index 안에 index
-```
+```py
 dirty_dozen = [fruits, vegetables]      # [['딸기', '사과', '포도', '배'], ['치커리', '케일', '상추', '감자', '오이']]
 print(dirty_dozen[1][2])                
 ```
@@ -291,7 +292,7 @@ print(dirty_dozen[1][2])
 
 dirty_dozen[1]'[2]' = vegetables(1) 내의 "상추"(2) 선택
 
-```
+```py
 list = [['a', 'b', 'c'], 'e', 'f', 'g']
        ________________
 1st         [0]          [1]  [2]  [3]
