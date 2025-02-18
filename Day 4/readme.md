@@ -1,11 +1,11 @@
 # Day 4 목차
-1. random
+1. [random](#1-random)
     - [random.randint](#randomrandintab)
     - [module](#module)
     - [random.random](#randomrandom)
     - [random.uniform](#randomuniformab)
     - [Pause 1. head or tail](#pause-1-head-or-tail)
-2. List
+2. [List](#2-list)
     - [list 구조](#list-구조)
     - [list index](#list-index)
     - [list data 추가](#list-data-추가)
