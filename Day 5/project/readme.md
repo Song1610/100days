@@ -1,7 +1,10 @@
 # Password Generator
 
-# Instructions
 
+# demo
+[Password Generator Demo](https://appbrewery.github.io/python-day5-demo/)
+
+# Instructions
 The program will ask:
 1. How many letters would you like in your password?
 2. How many symbols would you like?
@@ -42,8 +45,5 @@ x$d24g*f9
 Try googling: "How to shuffle items in a List in Python"
 
 # Solution
-1. [https://replit.com/@appbrewery/password-generator-end](https://replit.com/@appbrewery/password-generator-end)
-2. 
+[solution.py](https://github.com/Song1610/100days/blob/main/Day%205/project/solution.py)
 
-# demo
-[Password Generator Demo](https://appbrewery.github.io/python-day5-demo/)

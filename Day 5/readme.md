@@ -1,8 +1,21 @@
 # Day 5 목차
+25-02-18 작성
+1. [For Loop](#1-for-loop)
+    * 구조
+    * 예시 1. fruits 목록을 1개씩 출력하고 싶을 때
+    * 예시 2. fruits + pie를 붙여서 출력하고 싶을 때
+    * 예시 3. 들여쓰기
+        * 3.1 fruits list를 1번만 출력하고 싶다면 for문 안에 넣지 말 것
+    * [Exercise: Highest Score](#highest-score)
+2. [Range](#2-range)
+    * 구조
+    * 숫자 출력 시
+    * 숫자 건너 뛰기
+    * [PAUSE 1 - The Gauss Challenge](#pause-1---the-gauss-challenge)
+    * [fizzbuzz](#fizzbuzz)
+3. [Password Generator Project](#password-generator-project)
 
 ---
-
-25-02-18 작성
 
 # Loops
 
@@ -67,6 +80,10 @@ print(fruits)
 ## Highest Score
 [high_score link](https://github.com/Song1610/100days/tree/main/Day%205/exercise/high_score)
 
+<div align="right">
+
+[목차로](#day-5-목차)
+</div>
 
 ---
 # 2. Range
@@ -111,7 +128,18 @@ print(f"total : {total}")
 ## fizzbuzz
 [fizzbuzz link](https://github.com/Song1610/100days/tree/main/Day%205/exercise/fizzbuzz)
 
+<div align="right">
+
+[목차로](#day-5-목차)
+</div>
+
+---
 
 # Password Generator Project
 1. [Password Generator Demo](https://appbrewery.github.io/python-day5-demo/)
 2. [Password Generator Project](https://github.com/Song1610/100days/tree/main/Day%205/project)
+
+<div align="right">
+
+[목차로](#day-5-목차)
+</div>

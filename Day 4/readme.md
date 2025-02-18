@@ -6,7 +6,16 @@
     - [random.uniform](#randomuniformab)
     - [Pause 1. head or tail](#pause-1-head-or-tail)
 2. List
-
+    - [list 구조](#list-구조)
+    - [list index](#list-index)
+    - [list data 추가](#list-data-추가)
+    - [Banker Roulette](#banker-roulette)
+    - [Index Error](#index-error)
+    - [Nested list](#nested-list)
+        - [구조](#구조)
+        - [예시](#예시)
+        - [참고: index 안에 index](#참고-index-안에-index)
+3. [가위바위보 프로젝트](#3-가위바위보-프로젝트)
 ---
 25-02-12 작성
 
@@ -150,6 +159,11 @@ fruits = ["item 1", "item 2", "item 3"]
 
 [data structure 참고링크](https://docs.python.org/3/tutorial/datastructures.html)
 
+<div align="right">
+
+[목차로](#day-4-목차)
+</div>
+
 ## list index
 list 전체 데이터 출력
 ```py
@@ -170,6 +184,11 @@ list 맨 마지막 데이터 출력  `음극 인덱스 : 숫자에 '-'를 붙여
 print(states_of_america[-1])    # Hawaii
 print(states_of_america[-2])    # Alaska
 ```
+
+<div align="right">
+
+[목차로](#day-4-목차)
+</div>
 
 ## list data 추가
 list data 변경
@@ -200,6 +219,11 @@ print(states_of_america)
 
 ```
 
+<div align="right">
+
+[목차로](#day-4-목차)
+</div>
+
 ## Banker Roulette
 친구 목록에서 무작위로 이름을 선택하는 코드를 작성하세요.
 
@@ -220,6 +244,11 @@ print(friends[f_index])
 # 두번째 방법
 print(random.choice(friends))
 ```
+
+<div align="right">
+
+[목차로](#day-4-목차)
+</div>
 
 ## Index Error
 ```py
@@ -247,6 +276,11 @@ num_america_2 = len(states_of_america) -1
 print(states_of_america[num_america_2])
 ```
 
+<div align="right">
+
+[목차로](#day-4-목차)
+</div>
+
 ## Nested list
 list 안에 list
 
@@ -273,6 +307,12 @@ print(dirty_dozen)
 ```py
 [['딸기', '사과', '포도', '배'], ['치커리', '케일', '상추', '감자', '오이']]
 ```
+
+<div align="right">
+
+[목차로](#day-4-목차)
+</div>
+
 
 ### 참고: index 안에 index
 ```
@@ -304,9 +344,19 @@ print(list[1]) = e
 
 둘의 결과값은 전혀 다르다.
 
+<div align="right">
+
+[목차로](#day-4-목차)
+</div>
+
 ---
 
-# 가위바위보 프로젝트
+# 3. 가위바위보 프로젝트
 [가위바위보 프로젝트](https://github.com/Song1610/100days/tree/main/Day%204/project)
 
 [demo link](https://appbrewery.github.io/python-day4-demo/)
+
+<div align="right">
+
+[목차로](#day-4-목차)
+</div>
