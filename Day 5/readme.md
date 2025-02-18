@@ -12,6 +12,7 @@
 for item in list_of_item:
     # Do something to each item
 ```
+- 목록의 항목을 살펴보고 각각 항목으로 작업을 수행할 수 있음
 - 같은 코드 라인을 여러번 실행함
 
 예시 1. fruits 목록을 1개씩 출력하고 싶을 때
@@ -32,7 +33,7 @@ for f in fruits:
     print(f)
     print(f + " pie")
 ```
-f 출력 시, fruits + 'fruits[] + pie' 출력(▼)
+f 출력 시, fruits + 'fruits + pie' 출력(▼)
 
 ![Image](https://github.com/user-attachments/assets/845aedfb-7a1c-4431-84db-c750d1478b53)
 
@@ -62,3 +63,6 @@ print(fruits)
 출력 시(▼)
 
 ![Image](https://github.com/user-attachments/assets/a60a1c40-3fe1-457a-b537-a104584cb8bc)
+
+# Highest Score
+[high_score link](https://github.com/Song1610/100days/tree/main/Day%205/exercise/high_score)
