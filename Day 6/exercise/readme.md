@@ -26,7 +26,6 @@
 아래 그림처럼 목표에 도달 할 수 있는 코드 작성(▼)
 
 ![Image](https://github.com/user-attachments/assets/2a7c6b6d-8f6a-4dd8-a3ce-5cf08761e5c1) <br>
-
 [exercise solution(old)](https://github.com/Song1610/100days/blob/main/Day%206/exercise/old/hurdle_1.py) <br>
 [exercise solution(for)](https://github.com/Song1610/100days/blob/main/Day%206/exercise/new/hurdle_1(for).py) <br>
 [exercise solution(while)](https://github.com/Song1610/100days/blob/main/Day%206/exercise/new/hurdle_1(while).py)
@@ -35,7 +34,8 @@
 [허들 2. exercise link](https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Hurdle%202&url=worlds%2Ftutorial_en%2Fhurdle2.json)
 
 **문제 : 깃발 꽂힌 곳이 랜덤** <br>
-아래 그림처럼 목표에 도달 할 수 있는 코드 작성(▼) <br>
+아래 그림처럼 목표에 도달 할 수 있는 코드 작성(▼)
+
 ![Image](https://github.com/user-attachments/assets/69fde674-a4f0-4f60-915f-0c76fa13c5bc) <br> 
 [exercise solution(old)](https://github.com/Song1610/100days/blob/main/Day%206/exercise/old/hurdle_2.py) <br>
 [exercise solution(new)](https://github.com/Song1610/100days/blob/main/Day%206/exercise/new/hurdle_2.py)
@@ -71,8 +71,9 @@
 
 `tip: jump()를 수정하세요.`
 
-아래 그림처럼 목표에 도달 할 수 있는 코드 작성(▼) <br>
-![Image](https://github.com/user-attachments/assets/5d2d4723-4d63-4fc8-b235-f559550e308b)
+아래 그림처럼 목표에 도달 할 수 있는 코드 작성(▼)
+
+![Image](https://github.com/user-attachments/assets/5d2d4723-4d63-4fc8-b235-f559550e308b) <br>
 [exercise solution(old)](https://github.com/Song1610/100days/blob/main/Day%206/exercise/old/hurdle_4.py) <br>
 [exercise solution(new)](https://github.com/Song1610/100days/blob/main/Day%206/exercise/new/hurdle_4.py) <br>
 [exercise solution(solution)](https://github.com/Song1610/100days/blob/main/Day%206/exercise/new/hurdle_4(solution).py)
