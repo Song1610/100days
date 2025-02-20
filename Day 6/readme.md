@@ -68,5 +68,5 @@ def myfunction():
 특정 조건이 참이면 코드가 반복 실행 됨
 | for | while |
 |---|---|
-| for item in list_of_items: <br>    # Do something to each item  | while something_is_true: <br>     # Do something repeateldy |
-| for numver in range(a,b): print(number) | - |
+| for item in list_of_items: <br>   # Do something to each item  | while something_is_true: <br>    # Do something repeateldy |
+| for numver in range(a,b): <br>    print(number) | - |
