@@ -5,6 +5,7 @@
 
 # 로봇(reeborg's world) exercise
 [exercise file(old)](https://github.com/Song1610/100days/tree/main/Day%206/exercise/old)
+
 [exercise file(new)](https://github.com/Song1610/100days/tree/main/Day%206/exercise/new)
 * exercise file(new) : 25-02-18 ~ 25-02-00 작성
 
@@ -12,13 +13,14 @@
 [alone. exercise link](https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Alone&url=%2Fworlds%2Ftutorial_en%2Falone.json)
 
 1. 오른쪽 방향 함수 생성
+
 [turn_right solution](https://github.com/Song1610/100days/blob/main/Day%206/exercise/new/alone(turn_right).py)
 
 2. Draw Square
 
-![Image](https://github.com/user-attachments/assets/b1883bd7-32e3-4de7-99d9-b564950e22ee)
+    ![Image](https://github.com/user-attachments/assets/b1883bd7-32e3-4de7-99d9-b564950e22ee)
 
-[draw square solution](https://github.com/Song1610/100days/blob/main/Day%206/exercise/new/alone(DrawSquare).py)
+    [draw square solution](https://github.com/Song1610/100days/blob/main/Day%206/exercise/new/alone(DrawSquare).py)
 
 
 ## 2. 허들 1
