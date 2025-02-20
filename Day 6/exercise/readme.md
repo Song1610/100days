@@ -81,5 +81,20 @@
 
 
 ## 6. maze
-리보그가 출구를 찾을 수 있도록 while/if/elif/else을 사용하여 프로그램을 작성하세요.<br>
-비결은 리보그가 미로의 오른쪽 가장자리를 따라가고, 오른쪽으로 돌 수 있으면 오른쪽으로 돌고, 오른쪽으로 돌 수 없으면 직진하고, 마지막 수단으로 왼쪽으로 돌게 하는 것입니다.
+[maze link](https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Maze&url=worlds%2Ftutorial_en%2Fmaze1.json)
+
+아래 그림처럼 목표에 도달 할 수 있는 코드 작성(▼)
+
+![Image](https://github.com/user-attachments/assets/e33c26ee-a848-4d4e-bee5-2a690e07407e) <br>
+
+```
+리보그가 어두운 미로를 탐험하던 중 손전등의 배터리가 방전되었습니다.
+
+리보그가 출구를 찾을 수 있도록 문장을 사용하여 프로그램을 작성하세요 if/elif/else. 비결은 리보그가 미로의 오른쪽 가장자리를 따라가고, 오른쪽으로 돌 수 있으면 오른쪽으로 돌고, 오른쪽으로 돌 수 없으면 직진하고, 마지막 수단으로 왼쪽으로 돌게 하는 것입니다.
+
+당신이 알아야 할 것
+기능 move()과 turn_left().
+테스트 front_is_clear()또는 wall_in_front(), right_is_clear()또는 wall_on_right(), 그리고 at_goal().
+while루프와 명령문을 사용하는 방법 if/elif/else.
+not파이썬에서 테스트의 부정을 사용하는 방법을 아는 것이 유용할 수도 있습니다 .
+```
