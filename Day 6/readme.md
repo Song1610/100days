@@ -76,8 +76,34 @@ turn_right()
 move()
 ```
 
-### 2. 허들 1
+### 2.1 허들 1
 [exercise link](https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Hurdle%201&url=worlds%2Ftutorial_en%2Fhurdle1.json)
 
-[exercise file(old)](https://github.com/Song1610/100days/tree/main/Day%206/exercise)
+[exercise solution(old)](https://github.com/Song1610/100days/tree/main/Day%206/exercise)
 
+아래 그림처럼 목표에 도달 할 수 있는 코드 작성(▼)
+
+![Image](https://github.com/user-attachments/assets/2a7c6b6d-8f6a-4dd8-a3ce-5cf08761e5c1)
+
+```py
+
+def turn_right():
+    turn_left()
+    turn_left()
+    turn_left()
+    
+def jump():
+    turn_left()
+    move()
+    turn_right()
+    move()
+    turn_right()
+    move()
+    turn_left()
+    
+for mv in range(6):
+    move()
+    jump()
+```
+
+# Indentation(들여쓰기)
