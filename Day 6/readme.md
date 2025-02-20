@@ -26,7 +26,8 @@ my_function()
 "move"
 "move"
 ```
-이렇게 많은 함수를 def를 사용해서 동시에 참조할 수 있다.(▼)
+
+이렇게 많은 함수를 def를 사용해서 동시에 참조할 수 있다.(▼) 
 
 ```py
 def get():
@@ -37,9 +38,6 @@ def get():
     "move"
 ```
 
-## 로봇(reeborg's world) exercise
-[exercise file(old)](https://github.com/Song1610/100days/tree/main/Day%206/exercise)
-
 # Indentation(들여쓰기)
 들여쓰기 : 4칸, 스페이스바 : 1칸
 
@@ -49,8 +47,7 @@ def myfunction():
 print("bye")
 ```
 
-print("hello") : myfunction() 안에 포함된 함수
-<br>
+print("hello") : myfunction() 안에 포함된 함수 <br>
 print("bye") : myfunction()에 포함되지 않은 함수
 
 
@@ -65,8 +62,37 @@ def myfunction():
 
 
 # While Loop
-특정 조건이 참이면 코드가 반복 실행 됨
+## 구조
+특정 조건이 참이면 거짓이 될 때까지 코드가 반복 실행 됨
+
+```py
+while something_is_true:
+    # Do this
+    # Then do this
+    # the do this
+``` 
+
+## 비교(for, while)
 | for | while |
 |---|---|
-| for item in list_of_items: <br>     # Do something to each item  | while something_is_true: <br>     # Do something repeateldy |
-| for numver in range(a,b): <br>     print(number) | - |
+| for item in list_of_items: <br>   # Do something to each item  | while something_is_true: <br>   # Do something repeateldy |
+| for numver in range(a,b): <br>   print(number) | - |
+| list[] 안의 item을 반복하고 싶을 때 사용 <br> or <br> range(a,b)를 이용해서 반복작업을 해야할 때 사용 | 설정한 어떤 조건을 따를 때까지 반복 |
+| 반복 횟수를 지정할 수 있음 | 특정 조건이 거짓으로 바뀔 때까지 반복 실행 |
+
+[while()을 이용한 허들1 code](https://github.com/Song1610/100days/blob/main/Day%206/exercise/new/hurdle_1(while).py)
+
+## Infinite Loop
+조건이 참이면 무한 반복
+<br>
+예시:
+
+```py
+while 5 > 3:
+    # Do this
+    jump()
+```
+위 while()은 5>3 조건이 참이기 때문에 jump를 무한대로 반복한다.
+
+## 로봇(reeborg's world) exercise
+[robot exercise](https://github.com/Song1610/100days/tree/main/Day%206/exercise)
