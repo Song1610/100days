@@ -13,11 +13,13 @@ def my_function():
 
 my_function()
 ```
+<br>
+
 1. def 이용 기능 지정
 2. 함수에 이름 부여( my_function(): )
 3. 코드 작성(# Do this ~ )
     * def기능이 트리거 될 때 실행된 함수로 들어감
-4. 함수 호출( my_function() )
+4. 함수 호출( my_function() ) <br>
 
 ```
 "move"

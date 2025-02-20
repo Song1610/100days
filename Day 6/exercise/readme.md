@@ -21,7 +21,8 @@
 
 ## 2. 허들 1
 [허들 1. exercise link](https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Hurdle%201&url=worlds%2Ftutorial_en%2Fhurdle1.json)
-<br>
+
+**문제 : 점프!** <br>
 아래 그림처럼 목표에 도달 할 수 있는 코드 작성(▼)
 
 ![Image](https://github.com/user-attachments/assets/2a7c6b6d-8f6a-4dd8-a3ce-5cf08761e5c1) <br>
@@ -33,7 +34,7 @@
 ## 3. 허들 2
 [허들 2. exercise link](https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Hurdle%202&url=worlds%2Ftutorial_en%2Fhurdle2.json)
 
-문제 : 깃발 꽂힌 곳이 랜덤 <br>
+**문제 : 깃발 꽂힌 곳이 랜덤** <br>
 아래 그림처럼 목표에 도달 할 수 있는 코드 작성(▼) <br>
 ![Image](https://github.com/user-attachments/assets/69fde674-a4f0-4f60-915f-0c76fa13c5bc) <br> 
 [exercise solution(old)](https://github.com/Song1610/100days/blob/main/Day%206/exercise/old/hurdle_2.py) <br>
@@ -41,9 +42,9 @@
 
 ## 4. 허들 3
 [허들 3. exercise link](https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Hurdle%203&url=worlds%2Ftutorial_en%2Fhurdle3.json)
-<br>
-벽의 위치가 무작위로 변경 <br>
-아래의 함수를를 이용할 것 <br>
+
+**문제 : 벽의 위치가 무작위로 변경** <br>
+아래의 함수를 이용할 것 <br>
 - move()
 - turn_left()
 - front_is_clear()
