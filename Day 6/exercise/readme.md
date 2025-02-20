@@ -50,3 +50,35 @@
 - front_is_clear()
 - wall_in_front()
 - at_goal()
+
+아래 그림처럼 목표에 도달 할 수 있는 코드 작성(▼) <br>
+![Image](https://github.com/user-attachments/assets/f52560bd-5ccc-4ab5-bdea-d22d9f7a35b4) <br>
+[exercise solution(old)](https://github.com/Song1610/100days/blob/main/Day%206/exercise/old/hurdle_3.py) <br>
+[exercise solution(new)](https://github.com/Song1610/100days/blob/main/Day%206/exercise/new/hurdle_3.py)
+
+## 5. 허들 4
+[허들 4. exercise link](https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Hurdle%204&url=worlds%2Ftutorial_en%2Fhurdle4.json)
+
+**문제 : 다양한 높이의 벽과 허들을 넘어서 목적지에 도달하세요.** <br>
+아래의 함수를 이용할 것 <br>
+- move()
+- turn_left()
+- front_is_clear()
+- right_is_clear()
+- wall_in_front()
+- wall_on_right()
+- at_goal()
+
+`tip: jump()를 수정하세요.`
+
+아래 그림처럼 목표에 도달 할 수 있는 코드 작성(▼) <br>
+![Image](https://github.com/user-attachments/assets/5d2d4723-4d63-4fc8-b235-f559550e308b)
+[exercise solution(old)](https://github.com/Song1610/100days/blob/main/Day%206/exercise/old/hurdle_4.py) <br>
+[exercise solution(new)](https://github.com/Song1610/100days/blob/main/Day%206/exercise/new/hurdle_4.py) <br>
+[exercise solution(solution)](https://github.com/Song1610/100days/blob/main/Day%206/exercise/new/hurdle_4(solution).py)
+
+
+
+## 6. maze
+리보그가 출구를 찾을 수 있도록 while/if/elif/else을 사용하여 프로그램을 작성하세요.<br>
+비결은 리보그가 미로의 오른쪽 가장자리를 따라가고, 오른쪽으로 돌 수 있으면 오른쪽으로 돌고, 오른쪽으로 돌 수 없으면 직진하고, 마지막 수단으로 왼쪽으로 돌게 하는 것입니다.
