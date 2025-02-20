@@ -25,7 +25,6 @@ my_function()
 "tun right"
 "move"
 "move"
-...
 ```
 이렇게 많은 함수를 def를 사용해서 동시에 참조할 수 있다.(▼)
 
@@ -42,3 +41,32 @@ def get():
 [exercise file(old)](https://github.com/Song1610/100days/tree/main/Day%206/exercise)
 
 # Indentation(들여쓰기)
+들여쓰기 : 4칸, 스페이스바 : 1칸
+
+```py
+def myfunction():
+√√√√print("hello")
+print("bye")
+```
+
+print("hello") : myfunction() 안에 포함된 함수
+<br>
+print("bye") : myfunction()에 포함되지 않은 함수
+
+
+```py
+def myfunction():
+√√√√if sky == 'clear':
+√√√√√√√√print("blue")
+    else:
+        print("red")
+```
+함수블록(들여쓰기)를 잘 봐야함!
+
+
+# While Loop
+특정 조건이 참이면 코드가 반복 실행 됨
+| for | while |
+|---|---|
+| for item in list_of_items: <br>    # Do something to each item  | while something_is_true: <br>     # Do something repeateldy |
+| for numver in range(a,b): print(number) | - |
