@@ -1,4 +1,4 @@
-# 목차
+# Day 6 목차
 25-02-24 수정 <br>
 1. [function](#functions)
 2. [Indentation(들여쓰기)](#indentation들여쓰기)
