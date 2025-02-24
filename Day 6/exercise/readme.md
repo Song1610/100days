@@ -121,11 +121,11 @@
 리보그가 출구를 찾을 수 있도록 `if/elif/else` 문장을 사용하여 프로그램을 작성하세요. <br>
 비결은 리보그가 미로의 오른쪽 가장자리를 따라가고, 오른쪽으로 돌 수 있으면 오른쪽으로 돌고, 오른쪽으로 돌 수 없으면 직진하고, 마지막 수단으로 왼쪽으로 돌게 하는 것입니다. <br>
 
-`tip`
-1. move()과 turn_left()
-2. front_is_clear()또는 wall_in_front(), right_is_clear()또는 wall_on_right(), 그리고 at_goal().
-3. while루프와 명령문(if/elif/else)을 사용하는 방법
-4. not t사용
+**tip**
+1. `move()`과 `turn_left()`
+2. `front_is_clear()` 또는 `wall_in_front()`, `right_is_clear()`또는 `wall_on_right()`, 그리고 `at_goal()`.
+3. `while`루프와 명령문`if/elif/else`을 사용하는 방법
+4. not 사용
 
 
 [exercise solution(old)](https://github.com/Song1610/100days/blob/main/Day%206/exercise/old/maze.py) <br>
