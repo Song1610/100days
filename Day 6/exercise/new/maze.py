@@ -1,11 +1,13 @@
+def right():
+    turn_left()
+    turn_left()
+    turn_left()
+    
 while not at_goal():
-    if wall_on_right() and wall_in_front():
-        turn_left()
-    elif wall_on_right():
+    if right_is_clear():
+        right()
         move()
     elif front_is_clear():
         move()
-    elif right_is_clear():
+    else:
         turn_left()
-    elif wall_in_front():
-        right()

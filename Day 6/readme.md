@@ -1,6 +1,9 @@
 # 목차
-25-02-18 작성
-
+25-02-24 수정 <br>
+1. [function](#functions)
+2. [Indentation(들여쓰기)](#indentation들여쓰기)
+3. [While Loop](#while-loop)
+    - [로봇(reeborg's world) exercise](#로봇reeborgs-world-exercise)
 ---
 
 # Functions
@@ -40,6 +43,12 @@ def get():
     "move"
 ```
 
+<div align="right">
+
+[목차로](#목차)
+</div>
+
+
 # Indentation(들여쓰기)
 들여쓰기 : 4칸, 스페이스바 : 1칸
 
@@ -62,6 +71,10 @@ def myfunction():
 ```
 함수블록(들여쓰기)를 잘 봐야함!
 
+<div align="right">
+
+[목차로](#목차)
+</div>
 
 # While Loop
 ## 구조
@@ -96,5 +109,15 @@ while 5 > 3:
 ```
 위 while()은 5>3 조건이 참이기 때문에 jump를 무한대로 반복한다.
 
+<div align="right">
+
+[목차로](#목차)
+</div>
+
 ## 로봇(reeborg's world) exercise
 [robot exercise](https://github.com/Song1610/100days/tree/main/Day%206/exercise)
+
+<div align="right">
+
+[목차로](#목차)
+</div>

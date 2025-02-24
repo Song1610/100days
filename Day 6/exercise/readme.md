@@ -1,6 +1,11 @@
 25-02-20 작성
 # 로봇(reeborg's world) exercise 목차
-1. 
+1. [alone](#1-alone)
+2. [허들 1](#2-허들-1)
+3. [허들 2](#3-허들-2)
+4. [허들 3](#4-허들-3)
+5. [허들 4](#5-허들-4)
+6. [maze](#6-maze)
 ---
 
 # 로봇(reeborg's world) exercise
@@ -18,6 +23,11 @@
     ![Image](https://github.com/user-attachments/assets/b1883bd7-32e3-4de7-99d9-b564950e22ee) <br>
     [draw square solution](https://github.com/Song1610/100days/blob/main/Day%206/exercise/new/alone(DrawSquare).py)
 
+<div align="right">
+
+[목차로](#로봇reeborgs-world-exercise-목차)
+</div>
+
 
 ## 2. 허들 1
 [허들 1. exercise link](https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Hurdle%201&url=worlds%2Ftutorial_en%2Fhurdle1.json)
@@ -30,6 +40,11 @@
 [exercise solution(for)](https://github.com/Song1610/100days/blob/main/Day%206/exercise/new/hurdle_1(for).py) <br>
 [exercise solution(while)](https://github.com/Song1610/100days/blob/main/Day%206/exercise/new/hurdle_1(while).py)
 
+<div align="right">
+
+[목차로](#로봇reeborgs-world-exercise-목차)
+</div>
+
 ## 3. 허들 2
 [허들 2. exercise link](https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Hurdle%202&url=worlds%2Ftutorial_en%2Fhurdle2.json)
 
@@ -39,6 +54,11 @@
 ![Image](https://github.com/user-attachments/assets/69fde674-a4f0-4f60-915f-0c76fa13c5bc) <br> 
 [exercise solution(old)](https://github.com/Song1610/100days/blob/main/Day%206/exercise/old/hurdle_2.py) <br>
 [exercise solution(new)](https://github.com/Song1610/100days/blob/main/Day%206/exercise/new/hurdle_2.py)
+
+<div align="right">
+
+[목차로](#로봇reeborgs-world-exercise-목차)
+</div>
 
 ## 4. 허들 3
 [허들 3. exercise link](https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Hurdle%203&url=worlds%2Ftutorial_en%2Fhurdle3.json)
@@ -55,6 +75,12 @@
 ![Image](https://github.com/user-attachments/assets/f52560bd-5ccc-4ab5-bdea-d22d9f7a35b4) <br>
 [exercise solution(old)](https://github.com/Song1610/100days/blob/main/Day%206/exercise/old/hurdle_3.py) <br>
 [exercise solution(new)](https://github.com/Song1610/100days/blob/main/Day%206/exercise/new/hurdle_3.py)
+
+<div align="right">
+
+[목차로](#로봇reeborgs-world-exercise-목차)
+</div>
+
 
 ## 5. 허들 4
 [허들 4. exercise link](https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Hurdle%204&url=worlds%2Ftutorial_en%2Fhurdle4.json)
@@ -78,6 +104,10 @@
 [exercise solution(new)](https://github.com/Song1610/100days/blob/main/Day%206/exercise/new/hurdle_4.py) <br>
 [exercise solution(solution)](https://github.com/Song1610/100days/blob/main/Day%206/exercise/new/hurdle_4(solution).py)
 
+<div align="right">
+
+[목차로](#로봇reeborgs-world-exercise-목차)
+</div>
 
 
 ## 6. maze
@@ -85,16 +115,35 @@
 
 아래 그림처럼 목표에 도달 할 수 있는 코드 작성(▼)
 
-![Image](https://github.com/user-attachments/assets/e33c26ee-a848-4d4e-bee5-2a690e07407e) <br>
+![Image](https://github.com/user-attachments/assets/1d91397a-1313-46bf-b357-e567a1fa1d58) <br>
 
-```
-리보그가 어두운 미로를 탐험하던 중 손전등의 배터리가 방전되었습니다.
 
-리보그가 출구를 찾을 수 있도록 문장을 사용하여 프로그램을 작성하세요 if/elif/else. 비결은 리보그가 미로의 오른쪽 가장자리를 따라가고, 오른쪽으로 돌 수 있으면 오른쪽으로 돌고, 오른쪽으로 돌 수 없으면 직진하고, 마지막 수단으로 왼쪽으로 돌게 하는 것입니다.
+리보그가 출구를 찾을 수 있도록 `if/elif/else` 문장을 사용하여 프로그램을 작성하세요. <br>
+비결은 리보그가 미로의 오른쪽 가장자리를 따라가고, 오른쪽으로 돌 수 있으면 오른쪽으로 돌고, 오른쪽으로 돌 수 없으면 직진하고, 마지막 수단으로 왼쪽으로 돌게 하는 것입니다. <br>
 
-당신이 알아야 할 것
-기능 move()과 turn_left().
-테스트 front_is_clear()또는 wall_in_front(), right_is_clear()또는 wall_on_right(), 그리고 at_goal().
-while루프와 명령문을 사용하는 방법 if/elif/else.
-not파이썬에서 테스트의 부정을 사용하는 방법을 아는 것이 유용할 수도 있습니다 .
-```
+`tip`
+1. move()과 turn_left()
+2. front_is_clear()또는 wall_in_front(), right_is_clear()또는 wall_on_right(), 그리고 at_goal().
+3. while루프와 명령문(if/elif/else)을 사용하는 방법
+4. not t사용
+
+
+[exercise solution(old)](https://github.com/Song1610/100days/blob/main/Day%206/exercise/old/maze.py) <br>
+[exercise solution(new)](https://github.com/Song1610/100days/blob/main/Day%206/exercise/new/maze.py)
+
+<div align="right">
+
+[목차로](#로봇reeborgs-world-exercise-목차)
+</div>
+
+
+### 6.1 무한루프 버그
+아래 그림처럼 버그가 뜬다.(▼) <br>
+![Image](https://github.com/user-attachments/assets/e6b3c187-7a8a-43d5-8f5d-320db65200fc) <br>
+디버깅 하세요.(Day 15까지 듣고 올 것)
+
+
+<div align="right">
+
+[목차로](#로봇reeborgs-world-exercise-목차)
+</div>
