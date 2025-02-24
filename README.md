@@ -5,9 +5,9 @@ new
 - [Day 3](https://github.com/Song1610/100days/tree/main/Day%203)
 - [Day 4](https://github.com/Song1610/100days/tree/main/Day%204)
 - [Day 5](https://github.com/Song1610/100days/tree/main/Day%205)
+- [Day 6](https://github.com/Song1610/100days/tree/main/Day%206)
 
 old
-- [Day 6](https://github.com/Song1610/100days/tree/main/Day%206)
 - [Day 7](https://github.com/Song1610/100days/tree/main/Day%207)
 - [Day 8](https://github.com/Song1610/100days/tree/main/Day%208)
 - [Day 9](https://github.com/Song1610/100days/tree/main/Day%209)
