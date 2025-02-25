@@ -17,5 +17,5 @@
 
 
 ## STEP
-[old](https://github.com/Song1610/100days/tree/main/Day%207/old) <br>
-[new](https://github.com/Song1610/100days/tree/main/Day%207/new)
+[old](https://github.com/Song1610/100days/tree/main/Day%207/project/old) <br>
+[new](https://github.com/Song1610/100days/tree/main/Day%207/project/new)
