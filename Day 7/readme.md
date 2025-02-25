@@ -7,7 +7,11 @@
 [hangman Demo](https://appbrewery.github.io/python-day7-demo/)
 
 # Hangman Flow Chart
-![Image](https://github.com/user-attachments/assets/a0263531-770c-481a-b372-bbfcbde23dee) <br>
+내가 작성한 플로우 차트 <br>
+![Image](https://github.com/user-attachments/assets/3fa4a086-7fb1-473f-a560-987fc26651bb) <br>
 
-
+안젤라.ver <br>
 <img width="588" alt="Image" src="https://github.com/user-attachments/assets/d1e31e6d-396e-4679-b43f-09ca2f8cf3e0" />
+
+
+# STEP
