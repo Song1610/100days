@@ -1,4 +1,6 @@
 # Hangman Step 목차
+1. [step 1](#step-1)
+2. [step 2](#step-2)
 
 ---
 
@@ -28,7 +30,7 @@ _Google에서 Python의 `lower()` 함수를 검색합니다._
 _힌트 2_ <br>
 _문자열을 반복하는 방법은 리스트를 반복하는 것과 같습니다. `for in` 루프를 사용하면 됩니다. 구글링해 보세요: "Loop through strings python"_
 
-
+---
 
 ## Step 2
 **TODO-1** <br>
