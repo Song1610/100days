@@ -33,6 +33,12 @@ _Google에서 Python의 `lower()` 함수를 검색합니다._
 _힌트 2_ <br>
 _문자열을 반복하는 방법은 리스트를 반복하는 것과 같습니다. `for in` 루프를 사용하면 됩니다. 구글링해 보세요: "Loop through strings python"_
 
+
+<div align="right">
+
+[목차로](#hangman-step-목차)
+</div>
+
 ---
 
 ## Step 2
@@ -58,6 +64,12 @@ _힌트 2_ <br>
 _for 루프는 선택한 단어의 각 문자를 순서대로 살펴봅니다. 이 사실을 사용하여 문자나 "_"를 추가하여 새 문자열을 만들 수 있습니다._
 
 
+<div align="right">
+
+[목차로](#hangman-step-목차)
+</div>
+
+
 ---
 # Step 3
 **TODO-1** <br>
@@ -76,6 +88,13 @@ _힌트 1_ <br>
 _힌트 2_ <br>
 일치하는 글자를 저장하고 elif를 사용하여 글자가 이전에 일치했는지 확인하는 방법에 대해 생각해 보세요.
 
+
+<div align="right">
+
+[목차로](#hangman-step-목차)
+</div>
+
+
 ---
 
 # Step 4
@@ -93,29 +112,54 @@ _힌트_ <br>
 **TODO-3:** <br>
 사용자의 남은 생명 수에 해당하는 stages 목록에서 ASCII 아트를 출력합니다.
 
+
+<div align="right">
+
+[목차로](#hangman-step-목차)
+</div>
+
+
 ---
 
 # Step 5
-[step 5 link](exercise/new/main.py링크 넣을 것)
+[step 5 link](https://github.com/Song1610/100days/blob/main/Day%207/exercise/new/main.py)
 
-TODO-1:
+**TODO-1:** <br>
 단어 목록을 업데이트하여 hangman_words.py의 word_list를 사용합니다.
-TODO-2:
+
+
+**TODO-2:**<br>
 hangman_art.py 파일의 스테이지를 사용하도록 코드를 업데이트합니다.
-TODO-3:
+
+
+**TODO-3:**<br>
 hangman_art.py에서 로고를 가져와서 게임 시작 시 인쇄합니다.
-TODO-4:
-사용자가 이미 추측한 글자를 입력한 경우 해당 글자를 인쇄하여 알려줍니다.
-여기서는 생명을 차감해서는 안 됩니다.
+
+
+**TODO-4:**<br>
+사용자가 이미 추측한 글자를 입력한 경우 해당 글자를 인쇄하여 알려줍니다.<br>
+여기서는 생명을 차감해서는 안 됩니다.<br>
 예를 들어 이미 a를 추측했습니다.
-TODO-5:
-선택한 단어에 해당 글자가 없는 경우 해당 글자를 인쇄하여 해당 단어에 없다고 알려줍니다.
+
+
+**TODO-5:**<br>
+선택한 단어에 해당 글자가 없는 경우 해당 글자를 인쇄하여 해당 단어에 없다고 알려줍니다.<br>
 예를 들어 d를 추측했지만 해당 단어에는 없습니다. 생명을 하나 잃습니다.
-TODO-6:
-아래 코드를 업데이트하여 사용자에게 남은 생명 수를 알려줍니다.
+
+
+**TODO-6:**<br>
+아래 코드를 업데이트하여 사용자에게 남은 생명 수를 알려줍니다.<br>
 ```
 print("****************************<???>/6 LIVES LEFT********************************")
 ```
-TODO 7:
-사용자가 추측하려고 했던 올바른 단어를 제공하기 위해 print 문을 업데이트합니다.
-예: IT WAS <올바른 단어>! 당신은 졌습니다.
+
+
+**TODO 7:**<br>
+사용자가 추측하려고 했던 올바른 단어를 제공하기 위해 print 문을 업데이트합니다.<br>
+예: `IT WAS <Correct Word>! YOU LOSE.`
+
+
+<div align="right">
+
+[목차로](#hangman-step-목차)
+</div>
