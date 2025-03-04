@@ -174,4 +174,4 @@ greet_with(location="paris", name="mg")
 
 
 # Love Calculator
-[exercise link]()
+[exercise link](https://github.com/Song1610/100days/tree/main/Day%208/exercise/love_calculator)
