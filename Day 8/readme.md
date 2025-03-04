@@ -9,7 +9,7 @@
 
 # Function with Inputs
 
-# function review
+# PAUSE 1. function review
 - `greet()` function 생성
 - function 에 3개의 `print()` 작성
 - greet() 호출
@@ -22,7 +22,6 @@ def greet():
 
 greet()
 ```
-
 
 # function with input
 
