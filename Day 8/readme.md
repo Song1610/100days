@@ -1,16 +1,16 @@
 # Day 8 목차
-- [Day 8 목차](#day-8-목차)
-- [Function with Inputs](#function-with-inputs)
-- [PAUSE 1. function review](#pause-1-function-review)
-- [function with input](#function-with-input)
-  - [Parameter \& Argument 비교](#parameter--argument-비교)
-- [Life in Weeks](#life-in-weeks)
-- [위치 인수(Positional Argument) \& 키워드 인수(Keyworkd Argument)](#위치-인수positional-argument--키워드-인수keyworkd-argument)
-  - [Positional Argument](#positional-argument)
-    - [PAUSE 2. functions with more than 1 input](#pause-2-functions-with-more-than-1-input)
-  - [Keyword Argument](#keyword-argument)
-- [Love Calculator](#love-calculator)
-- [Cipher](#cipher)
+1. Function with Inputs <br>
+    - [PAUSE 1. function review](#pause-1-function-review) <br>
+    - [function with input](#function-with-input)
+     - [Parameter \& Argument 비교](#parameter--argument-비교)
+2. [Life in Weeks](#life-in-weeks)
+  
+3. [위치 인수(Positional Argument) \& 키워드 인수(Keyworkd Argument)](#위치-인수positional-argument--키워드-인수keyworkd-argument)
+     - [Positional Argument](#positional-argument)
+       - [PAUSE 2. functions with more than 1 input](#pause-2-functions-with-more-than-1-input)
+     - [Keyword Argument](#keyword-argument)
+4. [Love Calculator](#love-calculator)
+5. [Cipher](#cipher)
 
 ---
 
@@ -72,7 +72,7 @@ greet_with_name("kim")
 ## Parameter & Argument 비교
 
 | Parameter | Argument |
-|:---:|:---:|
+|:---|:---|
 | 매개변수 | 인수 |
 | 전달되는 데이터의 이름 | 데이터의 실제 값 |
 | 함수 안에서 매개변수를 참조하고 작업하기 위해 사용됨 | 실제 데이터 조각으로 호출될 때 함수로 넘겨짐 |
