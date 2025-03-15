@@ -1,9 +1,16 @@
 # Day 8 목차
-1.
-2.
-3.
-4.
-5.
+- [Day 8 목차](#day-8-목차)
+- [Function with Inputs](#function-with-inputs)
+- [PAUSE 1. function review](#pause-1-function-review)
+- [function with input](#function-with-input)
+  - [Parameter \& Argument 비교](#parameter--argument-비교)
+- [Life in Weeks](#life-in-weeks)
+- [위치 인수(Positional Argument) \& 키워드 인수(Keyworkd Argument)](#위치-인수positional-argument--키워드-인수keyworkd-argument)
+  - [Positional Argument](#positional-argument)
+    - [PAUSE 2. functions with more than 1 input](#pause-2-functions-with-more-than-1-input)
+  - [Keyword Argument](#keyword-argument)
+- [Love Calculator](#love-calculator)
+- [Cipher](#cipher)
 
 ---
 
@@ -22,6 +29,11 @@ def greet():
 
 greet()
 ```
+
+<div align="right">
+
+[목차로](#day-8-목차)
+</div>
 
 # function with input
 
@@ -65,7 +77,10 @@ greet_with_name("kim")
 | 전달되는 데이터의 이름 | 데이터의 실제 값 |
 | 함수 안에서 매개변수를 참조하고 작업하기 위해 사용됨 | 실제 데이터 조각으로 호출될 때 함수로 넘겨짐 |
 
+<div align="right">
 
+[목차로](#day-8-목차)
+</div>
 
 # Life in Weeks
 f-String을 사용하여 `life_in_weeks()`라는 함수를 만들어 90세까지 산다면 몇 주가 남았는지 알려줍니다. <br>
@@ -89,6 +104,11 @@ def life_in_weeks(age):
 
 life_in_weeks(70)
 ```
+<div align="right">
+
+[목차로](#day-8-목차)
+</div>
+
 
 # 위치 인수(Positional Argument) & 키워드 인수(Keyworkd Argument)
 ## Positional Argument
@@ -142,6 +162,11 @@ greet_with("paris", "MG")
 
 함수를 지정할 때 특정 매개변수를 지정하지 않았기 때문에 "mg"는 location에 할당되고 "paris"는 name에 할당되어 나옴 
 
+<div align="right">
+
+[목차로](#day-8-목차)
+</div>
+
 ## Keyword Argument
 
 함수호출에 매개변수와 인수를 매핑하여 출력한다.
@@ -171,7 +196,27 @@ greet_with(location="paris", name="mg")
 
 <img width="221" alt="Image" src="https://github.com/user-attachments/assets/f0a8cfcc-de31-450d-b72d-dc13d40472c7" />
 
+<div align="right">
+
+[목차로](#day-8-목차)
+</div>
 
 
 # Love Calculator
-[exercise link](https://github.com/Song1610/100days/tree/main/Day%208/exercise/love_calculator)
+[Exercise Link](https://github.com/Song1610/100days/tree/main/Day%208/exercise/love_calculator)
+
+<div align="right">
+
+[목차로](#day-8-목차)
+</div>
+
+# Cipher
+**[Demo link](https://appbrewery.github.io/python-day8-demo/) <br>**
+[cipher1]() <br>
+[cipher2]() <br>
+[cipher3]() <br>
+
+<div align="right">
+
+[목차로](#day-8-목차)
+</div>
