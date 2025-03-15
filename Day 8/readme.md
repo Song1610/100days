@@ -5,7 +5,7 @@
      - [Parameter \& Argument 비교](#parameter--argument-비교)
 2. [Life in Weeks](#life-in-weeks)
   
-3. [위치 인수(Positional Argument) \& 키워드 인수(Keyworkd Argument)](#위치-인수positional-argument--키워드-인수keyworkd-argument)
+3. 위치 인수(Positional Argument) \& 키워드 인수(Keyworkd Argument)
      - [Positional Argument](#positional-argument)
        - [PAUSE 2. functions with more than 1 input](#pause-2-functions-with-more-than-1-input)
      - [Keyword Argument](#keyword-argument)
@@ -212,6 +212,7 @@ greet_with(location="paris", name="mg")
 
 # Cipher
 **[Demo link](https://appbrewery.github.io/python-day8-demo/) <br>**
+
 [cipher1]() <br>
 [cipher2]() <br>
 [cipher3]() <br>
