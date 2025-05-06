@@ -1,6 +1,6 @@
 # Day 7 목차
 25-02-24 작성
-- Demo
+- Hangman Demo
 - [Flow Chart](#hangman-flow-chart)
 - [Step](#step)
 ---
@@ -16,6 +16,16 @@
 <img width="588" alt="Image" src="https://github.com/user-attachments/assets/d1e31e6d-396e-4679-b43f-09ca2f8cf3e0" />
 
 
+<div align="right">
+
+[목차로](#day-7-목차)
+</div>
+
 ## STEP
 [old](https://github.com/Song1610/100days/tree/main/Day%207/project/old) <br>
 [new](https://github.com/Song1610/100days/tree/main/Day%207/project/new)
+
+<div align="right">
+
+[목차로](#day-7-목차)
+</div>
