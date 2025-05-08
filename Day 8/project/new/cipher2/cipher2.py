@@ -16,16 +16,16 @@ shift = int(input("Type the shift number:\n"))
 
 
 ##### 1st 작성 #####
-# def caesar(encode_or_decode, original_text, shift_amount):
-#     cipher_abc = ""
-#     for a in original_text:
-#         if encode_or_decode == "encode":
-#             cipher_position = alphabet.index(a) + shift_amount
-#         else:
-#             cipher_position = alphabet.index(a) - shift_amount
-#         cipher_position %= len(alphabet)
-#         cipher_abc += alphabet[cipher_position]
-#     print(f"{encode_or_decode} result : {cipher_abc}")
+def caesar(encode_or_decode, original_text, shift_amount):
+    cipher_abc = ""
+    for a in original_text:
+        if encode_or_decode == "encode":
+            cipher_position = alphabet.index(a) + shift_amount
+        else:
+            cipher_position = alphabet.index(a) - shift_amount
+        cipher_position %= len(alphabet)
+        cipher_abc += alphabet[cipher_position]
+    print(f"{encode_or_decode} result : {cipher_abc}")
 
 
 ##### 2rd 수정 #####
