@@ -1,57 +1,35 @@
-# Cipher 1
-
-Caesar 암호를 사용하여 암호화 및 복호화 프로그램을 빌드합니다.
+# Cipher 3
 
 ## TODO-1:
-`original_text`와 `shift_amount`를 2개의 입력으로 받는 `encrypt()`라는 함수를 만듭니다.
+프로그램이 시작되면 art.py에서 로고를 가져와서 출력
 
 ## TODO-2:
-'encrypt' 함수 내부에서 `original_text`의 각 문자를 `shift_amount`만큼 알파벳에서 앞으로 이동하고 암호화된 텍스트를 출력합니다.
+사용자가 알파벳 리스트에 없는 숫자/기호/공백을 입력하면 어떻게 되나요? <br>
+텍스트가 인코딩/디코딩될 때 숫자/기호/공백이 유지되도록 코드를 수정할 수 있나요?
 
-내장된 `Python index()` 함수를 사용하여 목록에서 항목의 위치를 ​​찾을 수 있습니다.
 
-예:
-```py
-fruits = ["Apple", "Pear", "Orange"]
-fruits.index("Pear") #1
+예시
 ```
-
-예)다음 값이 있는 경우:
-
-```py
-plain_text = "hello"
-shift_amount = 1
+original_text = "meet me at 3!"
+cipher_text = "XXXX XX XX 3!"
 ```
+<br>
 
-최종 암호화된 출력은 다음과 같아야 합니다.
-
-다음은 인코딩된 결과입니다.
-```py
-ifmmp
-```
-
-여기서 'hello'의 각 문자는 1씩 위로 이동합니다.
-
-**힌트 1**
-
-1. 문제를 분석해 보겠습니다. 
-2. `plain_text`의 각 문자를 반복하려면 `for 루프`가 필요합니다.
-3. 알파벳 목록에서 각 문자의 위치를 ​​찾습니다. 
-4. 사용자가 원하는 `shift_amount`를 위치에 추가하여 인코딩된 문자의 위치를 ​​구합니다. 
-5. 해당 위치에 해당하는 문자를 찾습니다. 
-6. 인코딩된 각 문자를 새 문자열에 추가하고 루프가 끝난 후 출력합니다.
+**힌트 1** <br>
+If it's not a letter in the List alphabet, maybe you can just add it to the end of cipher_text as the unmodified character?
 
 
 ## TODO-3:
-encrypt() 함수를 호출하고 사용자 입력을 전달합니다. <br>
-코드를 테스트하고 메시지를 암호화할 수 있어야 합니다.
+Can you figure out a way to restart the cipher program?
 
-## TODO-4:
-문자 'z'를 9만큼 앞으로 이동하려고 하면 어떻게 되나요? 코드를 수정할 수 있나요?
 
-**힌트 2**
+예시
+```
+Type 'yes' if you want to go again. Otherwise, type 'no'.
+```
 
-이를 수행하는 방법은 여러 가지가 있습니다.<br>
-1. 알파벳 문자 목록에 알파벳 세트를 1개 이상 추가할 수 있습니다.
-2. `shift_amount`를 이동하여 항상 0~25 범위 내에 있고 목록에 맞도록 할 수 있습니다.
-3. 나머지를 얻기 위해 모듈을 사용할 수 있습니다.
+'yes'를 입력하면 direction/text/shift를 다시 묻고 caesar() 함수를 다시 호출합니다.
+
+
+**힌트 2** <br>
+사용자가 'yes'를 입력하면 프로그램을 계속 실행하는 while 루프를 만들어 보세요.
