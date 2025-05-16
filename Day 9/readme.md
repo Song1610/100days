@@ -1,5 +1,13 @@
-# Day 9
+# Day 9 목차
+- Dictionaries
+    - dictionaries 모양
+    - 검색
+    - new key 추가
+    - 사전의 value 수정
+    - 사전 반복(for in)
+  - Garding Program
 
+---
 # Dictionaries
 | Key | Value |
 |---|:---:|
@@ -37,7 +45,7 @@ programming_dictionary["Loop"] = " The action of doing something over and over a
 ![Image](https://github.com/user-attachments/assets/60f48e16-b9bd-4352-b458-bb7219802cce)
 <br>
 
-`tip!` : 코드를 시작할 때 아무것도 없는 빈 사전으로 시작하는 게 좋다.
+`tip` : 코드를 시작할 때 아무것도 없는 빈 사전으로 시작하는 게 좋다.
 ```
 emty_dictionary : {}
 ```
@@ -54,7 +62,7 @@ print(programming_dictionary)
 
 ## 사전 반복(for in)
 
-- print(key) 시 아래래처럼 키값만 출력됨
+- print(key) 시 아래처럼 키값만 출력됨
 ```
 for key in programming_dictionary:
     print(key)
@@ -71,3 +79,6 @@ for key in programming_dictionary:
     print(programming_dictionary[key])
 ```
 ![Image](https://github.com/user-attachments/assets/133ff3c8-f334-4faf-abb7-9e2cbca9124f)
+
+---
+# Garding Program
