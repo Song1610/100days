@@ -5,12 +5,17 @@
     - new key 추가
     - 사전의 value 수정
     - 사전 반복(for in)
-  - Garding Program
+- Garding Program
+- Nested Lists and Dictionaries
+  - Pause 1
+  - Pause 2
+  - Pause 3
+- Blind Auction Project
 
 ---
 # Dictionaries
 | Key | Value |
-|---|:---:|
+|:---:|:---|
 | Bug | An error in a program that prevents the program from running as expected. |
 | Function | A piece of code that you can easily call over and over again. |
 | Loop | The action of doing something over and over again. |
@@ -82,3 +87,72 @@ for key in programming_dictionary:
 
 ---
 # Garding Program
+[garding prigram link](https://github.com/Song1610/100days/blob/main/Day%209/exercise/new/garding_program.md)
+
+---
+# Nested Lists and Dictionaries
+- dictionary 안에 중첩된 list
+
+중첩X 
+```
+{
+    key : value,
+    key2 : value2,
+    ...
+}
+
+# Example
+capitals = {
+    "France" : "Paris",
+    "Germany": "Berlin"
+}
+```
+
+
+중첩O
+```
+{
+    key : [List],
+    key2 : {Dict},
+    ...
+}
+
+# Example
+travel_log = {
+    "France": ["Paris", "Lille", "Dijon"],
+    "Germany": ["Stuttgart", "Berlin"]
+}
+```
+- 복잡한 데이터를 저장할 때 유연성을 제공함
+
+
+### Pause 1. Print Lille
+```
+print(travel_log["France"][1])
+```
+
+### Pause 2. print "D"
+```
+nested_list = ["a", "b", ["c", "d"]]
+print(nested_list[2][1])
+```
+
+### Pause 3. print "Stuttgart"
+```
+travel_log = {
+  "France": {
+    "cities_visited": ["Paris", "Lille", "Dijon"],
+    "total_visits": 12
+   },
+  "Germany": {
+    "cities_visited": ["Berlin", "Hamburg", "Stuttgart"],
+    "total_visits": 5
+   },
+}
+
+print(travel_log["Germany"]["cities_visited"][2])
+```
+
+---
+# Blind Auction Project
+[Blind Auction Project link]()

@@ -1,31 +1,21 @@
 # Grading Program
-You have access to a database of student_scores in the format of a dictionary. The keys in student_scores are the names of the students and the values are their exam scores. 
 
 
+사전 형식의 student_scores 데이터베이스에 접근할 수 있습니다.<br>
+`student_scores`의 키는 학생 이름이고 값은 시험 점수입니다.
 
-Write a program that converts their scores to grades.
+점수를 학점으로 변환하는 프로그램을 작성하세요.
 
+프로그램이 완료되면 `student_grades`라는 새 사전이 생성될 것입니다. <br>
+이 사전은 키로 학생 이름을, 값으로는 평가된 학점을 포함합니다.
 
-
-By the end of your program, you should have a new dictionary called student_grades that should contain student names as keys and their assessed grades for values. 
-
-
-
-The final version of the student_grades dictionary will be checked. 
-
+`student_grades` 사전의 최종 버전을 검사합니다.
 
 
-**DO NOT** modify lines 1-7 to change the existing student_scores dictionary. 
+**Do NOT** : 기존 `student_scores` 사전을 변경하기 위해 1~7행을 수정하지 마세요.
 
-
-
-This is the scoring criteria: 
-
-- Scores 91 - 100: Grade = "Outstanding" 
-
-- Scores 81 - 90: Grade = "Exceeds Expectations" 
-
-- Scores 71 - 80: Grade = "Acceptable" 
-
-- Scores 70 or lower: Grade = "Fail" 
-
+채점 기준
+- 점수 91~100: 등급 = "Outstanding"
+- 점수 81~90: 등급 = "Exceeds Expectations"
+- 점수 71~80: 등급 = "Acceptable"
+- 점수 70 이하: 등급 = "Fail"
