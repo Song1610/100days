@@ -1,16 +1,17 @@
 # Day 9 목차
-- Dictionaries
-    - dictionaries 모양
-    - 검색
-    - new key 추가
-    - 사전의 value 수정
-    - 사전 반복(for in)
-- Garding Program
-- Nested Lists and Dictionaries
-  - Pause 1
-  - Pause 2
-  - Pause 3
-- Blind Auction Project
+- [Day 9 목차](#day-9-목차)
+- [Dictionaries](#dictionaries)
+  - [dictionaries 모양](#dictionaries-모양)
+  - [검색](#검색)
+  - [new key 추가](#new-key-추가)
+  - [사전의 value 수정](#사전의-value-수정)
+  - [사전 반복(for in)](#사전-반복for-in)
+- [Garding Program](#garding-program)
+- [Nested Lists and Dictionaries](#nested-lists-and-dictionaries)
+    - [Pause 1. Print Lille](#pause-1-print-lille)
+    - [Pause 2. print "D"](#pause-2-print-d)
+    - [Pause 3. print "Stuttgart"](#pause-3-print-stuttgart)
+- [Blind Auction Project](#blind-auction-project)
 
 ---
 # Dictionaries
@@ -85,9 +86,20 @@ for key in programming_dictionary:
 ```
 ![Image](https://github.com/user-attachments/assets/133ff3c8-f334-4faf-abb7-9e2cbca9124f)
 
+
+<div align="right">
+
+[목차로](#day-8-목차)
+</div>
+
 ---
 # Garding Program
 [garding prigram link](https://github.com/Song1610/100days/blob/main/Day%209/exercise/new/garding_program.md)
+
+<div align="right">
+
+[목차로](#day-8-목차)
+</div>
 
 ---
 # Nested Lists and Dictionaries
@@ -153,6 +165,12 @@ travel_log = {
 print(travel_log["Germany"]["cities_visited"][2])
 ```
 
+
+<div align="right">
+
+[목차로](#day-8-목차)
+</div>
+
 ---
 # Blind Auction Project
-[Blind Auction Project link]()
+[Blind Auction Project link](https://github.com/Song1610/100days/blob/main/Day%209/project/new/Blind_Auction_Project.md)

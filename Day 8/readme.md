@@ -1,6 +1,6 @@
 # Day 8 목차
-1. Function with Inputs <br>
-    - [PAUSE 1. function review](#pause-1-function-review) <br>
+1. Function with Inputs
+    - [PAUSE 1. function review](#pause-1-function-review)
     - [function with input](#function-with-input)
      - [Parameter \& Argument 비교](#parameter--argument-비교)
 2. [Life in Weeks](#life-in-weeks)
