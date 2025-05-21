@@ -1,5 +1,5 @@
 # 100 Days of Code: Python 정리 목차
-new
+
 - [Day 1](https://github.com/Song1610/100days/tree/main/Day%201)
 - [Day 2](https://github.com/Song1610/100days/tree/main/Day%202)
 - [Day 3](https://github.com/Song1610/100days/tree/main/Day%203)
@@ -7,10 +7,9 @@ new
 - [Day 5](https://github.com/Song1610/100days/tree/main/Day%205)
 - [Day 6](https://github.com/Song1610/100days/tree/main/Day%206)
 - [Day 7](https://github.com/Song1610/100days/tree/main/Day%207)
-
-
-old
 - [Day 8](https://github.com/Song1610/100days/tree/main/Day%208)
 - [Day 9](https://github.com/Song1610/100days/tree/main/Day%209)
+
+old
 - [Day 10](https://github.com/Song1610/100days/tree/main/Day10)
 - [Day 11](https://github.com/Song1610/100days/tree/main/Day11)
