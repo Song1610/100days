@@ -28,11 +28,11 @@ def my_function(something):
 
 my_function(123)
 ```
-something = 123
+- something = 123
 
 ### 3. Functions with outputs
 함수가 완성되면 출력을 얻게 해주는 함수
-```
+```py
 def my_function():
     result = 3*2
     return result
@@ -58,7 +58,7 @@ print(my_function()) 로 해야 값(6) 출력<br>
 
 
 1. print 사용
-```
+```py
 # Todo.1
 def format_name(f_name, l_name):
     # Todo.2
@@ -74,7 +74,7 @@ format_name("mingyu", "KIM")
 
 
 2. return 사용
-```
+```py
 def format_name(f_name, l_name):
     # Todo.2
     formated_f_name = f_name.title()
@@ -100,7 +100,7 @@ print()와 return을 사용했을 때의 결과는 같지만 코드의 내용이
 |함수에서 나중에 사용할 수 있는 값을 반환하는데 사용|프로그래머가 볼 수 있도록 콘솔에 값을 표시함|
 
 #### 반환함수(return)의 동작 예시
-```
+```py
 def function_1(text):
     return text + text
 
