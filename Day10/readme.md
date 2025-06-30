@@ -150,6 +150,7 @@ formatted_name = format_name("AnGeLa", "YU")
 
 length = len(formatted_name)
 ```
-위 코드에서 """ """ 부분이 Docstring
+위 코드에서 """ """ 부분이 Docstring(▲) <br>
+아래 Docstring가 보임(▼) <br>
 
 ![Image](https://github.com/user-attachments/assets/b489b70b-73d2-444f-bdd6-edfffe16a177)
