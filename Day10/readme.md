@@ -1,7 +1,8 @@
 # Day 10 목차
-- [Function with Outputs]()
-- [Multiple Return Values]()
-- [Docstrings]()
+- [Function with Outputs](#function-with-outputs)
+- [Multiple Return Values](#multiple-return-values)
+- [Docstrings](#docstrings)
+- [Calculrator Program]()
 ---
 
 # Function with Outputs
@@ -111,6 +112,12 @@ output = function_2(function_1("hello "))
 print(output)
 ```
 
+
+<div align="right">
+
+[목차로](#day-10-목차)
+</div>
+
 ---
 
 # Multiple Return Values
@@ -127,6 +134,12 @@ def format_name(f_name, l_name):
 print(format_name(f_name = input("Your first name : "), l_name = input("Your last name : ")))
 
 ```
+
+<div align="right">
+
+[목차로](#day-10-목차)
+</div>
+
 
 ---
 # Docstrings
@@ -154,3 +167,10 @@ length = len(formatted_name)
 아래 Docstring가 보임(▼) <br>
 
 ![Image](https://github.com/user-attachments/assets/b489b70b-73d2-444f-bdd6-edfffe16a177)
+
+
+
+<div align="right">
+
+[목차로](#day-10-목차)
+</div>

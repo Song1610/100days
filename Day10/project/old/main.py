@@ -1,5 +1,5 @@
 # calculator project
-import art
+import Day10.project.old.art as art
 
 def add(n1, n2):
     return n1 + n2
