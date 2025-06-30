@@ -2,7 +2,7 @@
 - [Function with Outputs](#function-with-outputs)
 - [Multiple Return Values](#multiple-return-values)
 - [Docstrings](#docstrings)
-- [Calculrator Program]()
+- [Calculrator Program](https://github.com/Song1610/100days/blob/main/Day10/project/calculator.md)
 ---
 
 # Function with Outputs
@@ -121,7 +121,12 @@ print(output)
 ---
 
 # Multiple Return Values
-return : 함수실행의 끝  ending
+
+* return : 함수실행의 끝  ending
+* 함수는 return 키워드에서 종료
+* return문 아래에 코드를 작성하면 해당 코드는 실행되지 않음
+* 하나의 함수에 여러 return이 있을 수 있음
+
 ```py
 def format_name(f_name, l_name):
     if f_name == "" or l_name == "":
@@ -135,6 +140,22 @@ print(format_name(f_name = input("Your first name : "), l_name = input("Your las
 
 ```
 
+## 조건부 반환(Conditional Returns)
+제어 흐름이 있는 경우, 즉 특정 조건 검사에 따라 코드가 다르게 동작하는 경우(다른 실행 경로로 이동) 여러 종료(반환)가 발생할 수 있음
+
+```py
+def canBuyAlcohol(age):
+    if age >= 18:
+        return True
+    else:
+        return False
+```
+- 이 뒤에 아무것도 없이 return을 작성할 수 있음
+- 함수 종료
+
+
+
+
 <div align="right">
 
 [목차로](#day-10-목차)
@@ -142,10 +163,22 @@ print(format_name(f_name = input("Your first name : "), l_name = input("Your las
 
 
 ---
+
 # Docstrings
+
 - 기본적으로 문서 조각을 만드는 방법
 - 함수나 다른 코드 블록을 코딩할 때 사용
+- docstring을 사용하면 코드를 문서화하는 여러 줄 주석을 작성할 수 있음
 
+```
+"""
+여기에 작성
+"""
+```
+
+
+
+예시(▼)
 ```py
 def format_name(f_name, l_name):
     """
@@ -163,7 +196,7 @@ formatted_name = format_name("AnGeLa", "YU")
 
 length = len(formatted_name)
 ```
-위 코드에서 """ """ 부분이 Docstring(▲) <br>
+
 아래 Docstring가 보임(▼) <br>
 
 ![Image](https://github.com/user-attachments/assets/b489b70b-73d2-444f-bdd6-edfffe16a177)
