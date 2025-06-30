@@ -1,6 +1,7 @@
 # Day 10 목차
 - [Function with Outputs]()
 - [Multiple Return Values]()
+- [Docstrings]()
 ---
 
 # Function with Outputs
@@ -113,3 +114,42 @@ print(output)
 ---
 
 # Multiple Return Values
+return : 함수실행의 끝  ending
+```py
+def format_name(f_name, l_name):
+    if f_name == "" or l_name == "":
+        return f"name value is null"        # early return
+    formated_f_name = f_name.title()
+    formated_l_name = l_name.title()
+    return f"{formated_f_name} {formated_l_name}"
+
+
+print(format_name(f_name = input("Your first name : "), l_name = input("Your last name : ")))
+
+```
+
+---
+# Docstrings
+- 기본적으로 문서 조각을 만드는 방법
+- 함수나 다른 코드 블록을 코딩할 때 사용
+
+```py
+def format_name(f_name, l_name):
+    """
+    Docstring test
+    format_name is first name, last name.
+    f_name : first name
+    l_name : last name
+    """
+    formated_f_name = f_name.title()
+    formated_l_name = l_name.title()
+    return f"{formated_f_name} {formated_l_name}"
+
+
+formatted_name = format_name("AnGeLa", "YU")
+
+length = len(formatted_name)
+```
+위 코드에서 """ """ 부분이 Docstring
+
+![Image](https://github.com/user-attachments/assets/b489b70b-73d2-444f-bdd6-edfffe16a177)
