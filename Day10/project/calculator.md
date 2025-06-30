@@ -48,6 +48,6 @@ result = operations["*"](n1= 5, n2= 3)
 
 ## 완성
 
-[main.py(new)]()
+[main.py(new)](https://github.com/Song1610/100days/blob/main/Day10/project/new/solution.py)
 
-[main.py(old)]()
+[main.py(old)](https://github.com/Song1610/100days/blob/main/Day10/project/old/main.py)
