@@ -7,8 +7,9 @@
 
 ---
 ## 작성한 파일
-[old](#https://github.com/Song1610/100days/tree/main/Day11/old)
-[new](#https://github.com/Song1610/100days/tree/main/Day11/new)
+[old](https://github.com/Song1610/100days/tree/main/Day11/old) 
+
+[new](https://github.com/Song1610/100days/tree/main/Day11/new)
 ---
 ## Our Blackjack Game House Rules
 * The deck is unlimited in size.
