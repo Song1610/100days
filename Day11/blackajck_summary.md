@@ -418,6 +418,6 @@ def start_game():
 <br><br>
 
 # 최종 코드 정리
-[Step 2]()
+[Step 2](https://github.com/Song1610/100days/blob/main/Day11/new/main(step2).py)
 or 
-[me+anjela.ver]()
+[me+anjela.ver](https://github.com/Song1610/100days/blob/main/Day11/new/main(me%2Banjela).py)
