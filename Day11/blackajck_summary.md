@@ -421,3 +421,9 @@ def start_game():
 [Step 2](https://github.com/Song1610/100days/blob/main/Day11/new/main(step2).py)
 or 
 [me+anjela.ver](https://github.com/Song1610/100days/blob/main/Day11/new/main(me%2Banjela).py)
+
+
+# 노트 정리
+![Image](https://github.com/user-attachments/assets/9ca5ecba-c68e-4334-b96e-af4028c2fdf3)
+
+![Image](https://github.com/user-attachments/assets/6444625f-1816-4042-b148-4bcef1564100)
