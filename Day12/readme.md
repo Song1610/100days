@@ -1,6 +1,9 @@
 # Day 12 목차
 - Namespaces & Scope
 - Black Scope
+- Global vars
+- Global Constants(전면상수)
+- Number Guessing Project
 
 ---
 
@@ -200,3 +203,157 @@ for _ in range(10):
 ---
 
 # Prime Number Checker
+[소수 검사기 링크]()
+
+<br>
+<br>
+
+---
+# Global vars
+global 키워드를 사용하기 전에 사용하면 global을 사용하여 코드를 강제로 수정할 수 있음
+
+
+## Modifying Global Scope 예시
+
+### 1. global 함수를 설정하지 않고 local/global 변수의 값이 다를 때
+```py
+enemies = 1
+
+
+def increase_enemies():
+    enemies = 2
+    print(f"enemies inside function: {enemies}")
+
+
+increase_enemies()
+print(f"enemies outside function: {enemies}")
+```
+
+결과값 <br>
+<img width="241" height="49" alt="Image" src="https://github.com/user-attachments/assets/a6c9c7b9-9ab3-4ec7-9b5f-b899fc66a319" />
+
+<br>
+
+### 2. 1을 문자로 좀 더 간단하게 q변경
+global enemies = "skeleton"
+local enemies = " Zombie"
+
+```py
+enemies = "Skeleton"
+
+
+def increase_enemies():
+    enemies = "Zombie"
+    print(f"enemies inside function: {enemies}")
+
+
+increase_enemies()
+print(f"enemies outside function: {enemies}")
+```
+
+결과값 <br>
+<img width="301" height="57" alt="Image" src="https://github.com/user-attachments/assets/9086d351-b00e-40ae-bacf-50af5e304634" />
+
+<br>
+
+### 3. global함수를 지정하지 않았을 때
+
+```py
+enemies = 1
+
+
+def increase_enemies():
+    enemies += 1
+    print(f"enemies inside function: {enemies}")
+
+
+increase_enemies()
+print(f"enemies outside function: {enemies}")
+```
+
+결과값<br>
+<img width="540" height="111" alt="Image" src="https://github.com/user-attachments/assets/8a5c71e8-64e2-4a2f-b763-cebc5d2db08c" />
+
+enemies가 확인되지 않은 참조라고 뜨며 `매개변수`를 생성하라고 한다.
+
+<br>
+
+### 4. enemies를 global 함수로 지정했을 때
+
+매개변수 생성 알림이 사라짐
+inside enemies와 outside enemies의 값이 같음
+```py
+enemies = 1
+
+
+def increase_enemies():
+    global enemies
+    enemies += 1
+    print(f"enemies inside function: {enemies}")
+
+
+increase_enemies()
+print(f"enemies outside function: {enemies}")
+```
+
+결과값<br>
+<img width="253" height="54" alt="Image" src="https://github.com/user-attachments/assets/870fbf38-f163-41b4-a006-d04adfd13dad" />
+
+#### global 함수를 설정하는 것은 좋지 않다.
+- 혼란스럽고 버그와 오류를 생성하기 쉬움
+- 어디서든 코드가 생성되기 쉬움
+- 로컬 범위를 가진 함수 안에서 수정하려고 하면 X
+- def 함수 내의  local 범위를 수정하지 않고 값을 생성하려면 아래 코드 처럼 return을 사용하는 것이 좋다.(▼)
+
+```py
+enemies = 1
+
+def increase_enemies(enemy):
+    print(f"enemies inside function: {enemies}")
+    return enemy + 1
+
+enemies = increase_enemies(1)
+print(f"enemies outside function: {enemies}")
+```
+결과값<br>
+<img width="238" height="55" alt="Image" src="https://github.com/user-attachments/assets/104d90f4-9d99-4bb0-8901-66a948a371c6" />
+
+<br><br>
+
+---
+
+# Global Constants(전면상수)
+Python 상수와 Global Scope
+
+쉽게 액세스할 수 있도록 코드 파일에 전역 상수를 정의할 수 있습니다.<br>
+내가 정의한 변수로, 별도로 수정할 필요가 없음
+
+<br>
+
+명명 규칙 : **대문자**
+* 소문자로 정의했을 때 상수와 구분이 되지 않기때문(▼)
+```py
+pi = 3.14159
+def calc():
+    print(pi)
+
+calc()
+```
+
+대문자로 변경
+```py
+PI = 3.14159
+GOOGLE_URL = "https://www.google.com"
+
+
+
+
+def my_function():
+    print(GOOGLE_URL)
+
+my_function()
+```
+
+---
+
+# Number Guessing Project
