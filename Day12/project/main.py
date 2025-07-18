@@ -27,7 +27,7 @@ def mode():
     return choice
 
 
-def compare(ran_num, choice_num):
+def compare(ran_num, choice_num):   # GPT의 도움을 쪼끔 받았따
     """정답 추측하기"""
     while choice_num > 0:
         guess_num = int(input("추측한 숫자 : "))
