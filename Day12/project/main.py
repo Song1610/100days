@@ -49,11 +49,12 @@ def compare(ran_num, choice_num):   # GPT의 도움을 쪼끔 받았따
 
 
 def game():
+    print(logo)
     print("Up & Down 게임 시작")
     ran_num = random_number()
     choice_num = mode()
     compare(ran_num, choice_num)
 
-while input("Up & Down 게임을 시작하시겠습니까? (yes or no) : ") == "yes":
-    print(logo)
-    game()
+    
+
+game()
