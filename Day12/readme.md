@@ -1,9 +1,21 @@
 # Day 12 목차
-- Namespaces & Scope
-- Black Scope
-- Global vars
-- Global Constants(전면상수)
-- Number Guessing Project
+- [Day 12 목차](#day-12-목차)
+- [Namespaces \& Scope](#namespaces--scope)
+  - [Local scope](#local-scope)
+  - [Global scope](#global-scope)
+  - [Namespace](#namespace)
+- [Black Scope](#black-scope)
+    - [이해하기 쉬운 예시](#이해하기-쉬운-예시)
+- [Exercise : Prime Number Checker](#exercise--prime-number-checker)
+- [Global vars](#global-vars)
+  - [Modifying Global Scope 예시](#modifying-global-scope-예시)
+    - [1. global 함수를 설정하지 않고 local/global 변수의 값이 다를 때](#1-global-함수를-설정하지-않고-localglobal-변수의-값이-다를-때)
+    - [2. 1을 문자로 좀 더 간단하게 변경](#2-1을-문자로-좀-더-간단하게-변경)
+    - [3. global함수를 지정하지 않았을 때](#3-global함수를-지정하지-않았을-때)
+    - [4. enemies를 global 함수로 지정했을 때](#4-enemies를-global-함수로-지정했을-때)
+      - [global 함수를 설정하는 것은 좋지 않다.](#global-함수를-설정하는-것은-좋지-않다)
+- [Global Constants(전면상수)](#global-constants전면상수)
+- [Number Guessing Project](#number-guessing-project)
 
 ---
 
@@ -105,6 +117,14 @@ game()
 <img width="431" height="73" alt="Image" src="https://github.com/user-attachments/assets/a57f61f4-0091-4319-9c06-8569a52930e2" />
 
 
+<br><br>
+
+<div align="right">
+
+[목차로](#day-12-목차)
+</div>
+
+
 ---
 
 # Black Scope
@@ -200,13 +220,23 @@ for _ in range(10):
 
 ```
 
+<div align="right">
+
+[목차로](#day-12-목차)
+</div>
+
 ---
 
-# Prime Number Checker
-[소수 검사기 링크]()
+# Exercise : Prime Number Checker
+[소수 검사기 링크](https://github.com/Song1610/100days/blob/main/Day12/exercise/Prime_Number_Checker.md)
 
 <br>
 <br>
+
+<div align="right">
+
+[목차로](#day-12-목차)
+</div>
 
 ---
 # Global vars
@@ -234,7 +264,7 @@ print(f"enemies outside function: {enemies}")
 
 <br>
 
-### 2. 1을 문자로 좀 더 간단하게 q변경
+### 2. 1을 문자로 좀 더 간단하게 변경
 global enemies = "skeleton"
 local enemies = " Zombie"
 
@@ -320,6 +350,11 @@ print(f"enemies outside function: {enemies}")
 
 <br><br>
 
+<div align="right">
+
+[목차로](#day-12-목차)
+</div>
+
 ---
 
 # Global Constants(전면상수)
@@ -354,6 +389,18 @@ def my_function():
 my_function()
 ```
 
+
+<div align="right">
+
+[목차로](#day-12-목차)
+</div>
+
 ---
 
 # Number Guessing Project
+[Up & Down Game](https://github.com/Song1610/100days/blob/main/Day12/project/Number_Guessing_Project.md)
+
+<div align="right">
+
+[목차로](#day-12-목차)
+</div>
