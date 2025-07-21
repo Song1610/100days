@@ -4,6 +4,9 @@
 - Reproduce the Bug
 - Play Computer
 - Fix the Errors
+- Use Print
+- Use a Debugger 
+
 
 
 ---
@@ -98,10 +101,9 @@ elif year > 1994:
 
 <img width="266" height="82" alt="Image" src="https://github.com/user-attachments/assets/5a699a7f-358e-4381-8645-8062c7cd55db" />
 
-<br>
+<br><br>
 
-코드 줄을 하나씩 실행해 보고 각각의 코드를 보고 논리적으로 평가한 뒤, <br>
-1994의 세대가 출력되도록 디버깅 하세요. <br>
+코드 줄을 하나씩 실행해 보고 각각의 코드를 보고 논리적으로 평가한 뒤, 1994의 세대가 출력되도록 디버깅 하세요. <br>
 
 ```py
 year = int(input("What's your year of birth?"))
@@ -150,7 +152,9 @@ if age > 18:
     print("You can drive at age {age}")
 ```
 
+<br>
 age에 `seventeen`과 같은 문자열을 넣으면 아래와 같은 `ValueError`가 발생
+<br>
 
 ```
 age = int(input("How old are you? "))
@@ -161,9 +165,8 @@ ValueError: invalid literal for int() with base 10: 'seventeen'
 - `int()`안에 들어갈 값이 문자열은 맞지만 그 값이 int로 변환할 수 없어 생기는 오류
 
 <br>
-잠재적인 오류(ValueError)를 잡아 코드가 충돌하지 않게 하고 <br>
-코드가 다운되는 대안 경로를 제공함
-<br>
+잠재적인 오류(ValueError)를 잡아 코드가 충돌하지 않게 하고 코드가 다운되는 대안 경로를 제공함
+
 
 ```py
 try:
@@ -198,3 +201,70 @@ if age > 18:
 
 결과<br>
 <img width="219" height="63" alt="Image" src="https://github.com/user-attachments/assets/8ebc18db-975c-4e0e-bedd-103729fdc83d" />
+
+
+---
+
+# Use Print
+`print()`는 코드를 디버깅하는 데 많은 도움이 된다.
+
+__origin code__
+
+```py
+word_per_page = 0
+pages = int(input("Number of pages: "))
+word_per_page == int(input("Number of words per page: "))
+total_words = pages * word_per_page
+print(total_words)
+```
+
+결과값
+
+<img width="264" height="73" alt="Image" src="https://github.com/user-attachments/assets/2a18a15d-cbd1-49bc-950c-d8f362e72df1" />
+
+total_word가 0이 된다.
+
+## pause 1. print()를 이용해서 디버그
+사용자가 제공하는 변수의 실제 값을 프린트
+
+```py
+word_per_page = 0
+pages = int(input("Number of pages: "))
+word_per_page == int(input("Number of words per page: "))
+total_words = pages * word_per_page
+print(total_words)
+
+print(f"페이지 : {pages}")
+print(f"워드 페이지 : {word_per_page}")
+
+```
+
+
+결과
+
+<img width="259" height="137" alt="Image" src="https://github.com/user-attachments/assets/69781c51-d58c-440a-944b-de173d786398" />
+
+
+워드페이지의 값이 `0`인 것을 확인할 수 있음
+
+## pause 2. 코드 수정
+최종 총합이 프린트 될 수 있게 수정
+
+```py
+pages = int(input("Number of pages: "))
+word_per_page = int(input("Number of words per page: "))
+total_words = pages * word_per_page
+print(total_words)
+
+print(f"페이지 : {pages}")
+print(f"워드 페이지 : {word_per_page}")
+```
+
+결과
+
+<img width="259" height="121" alt="Image" src="https://github.com/user-attachments/assets/e24b9805-c6bf-49b3-a25e-a1c1f379314c" />
+
+
+---
+
+# Use a Debugger
