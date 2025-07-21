@@ -99,8 +99,9 @@ elif year > 1994:
 <img width="266" height="82" alt="Image" src="https://github.com/user-attachments/assets/5a699a7f-358e-4381-8645-8062c7cd55db" />
 
 <br>
+
 코드 줄을 하나씩 실행해 보고 각각의 코드를 보고 논리적으로 평가한 뒤, <br>
-1994의 세대가 출력되도록 디버깅 하세요.
+1994의 세대가 출력되도록 디버깅 하세요. <br>
 
 ```py
 year = int(input("What's your year of birth?"))
@@ -112,7 +113,7 @@ elif year > 1994:
 
 ```
 
-결과
+결과 <br>
 
 <img width="285" height="103" alt="Image" src="https://github.com/user-attachments/assets/f30a54f1-e1ae-4d92-95c1-95a9dc2481bc" />
 
@@ -132,7 +133,7 @@ print("You can drive at age {age}")
 ```
 
 ### pause 1. print error 디버깅
-origin code에서 print 부분이 오류가 나지 않게 수정(▼)
+origin code에서 print 부분이 오류가 나지 않게 수정
 
 ```py
 age = int(input("How old are you? "))
@@ -159,9 +160,10 @@ ValueError: invalid literal for int() with base 10: 'seventeen'
 - 제공된 문자열을 `int`정수로 구문 분석할 수 없음
 - `int()`안에 들어갈 값이 문자열은 맞지만 그 값이 int로 변환할 수 없어 생기는 오류
 
-
+<br>
 잠재적인 오류(ValueError)를 잡아 코드가 충돌하지 않게 하고 <br>
 코드가 다운되는 대안 경로를 제공함
+<br>
 
 ```py
 try:
@@ -174,7 +176,7 @@ if age > 18:
     print("You can drive at age {age}.")
 ```
 
-실행결과(▼)
+실행결과(▼) <br>
 <img width="471" height="105" alt="Image" src="https://github.com/user-attachments/assets/a5c8748c-a086-417a-bf5d-81e4d0b23858" />
 
 
