@@ -127,6 +127,12 @@ elif year > 1994:
 
 코드 줄을 하나씩 실행해 보고 각각의 코드를 보고 논리적으로 평가한 뒤, 1994의 세대가 출력되도록 디버깅 하세요. <br>
 
+코드 실행 결과 <br>
+<img width="1945" height="1000" alt="Image" src="https://github.com/user-attachments/assets/9ddc0c59-3fb4-4655-8135-b19639bb6790" />
+<br><br>
+
+
+디버깅한 코드 
 ```py
 year = int(input("What's your year of birth?"))
 
