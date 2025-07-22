@@ -1,15 +1,26 @@
 # Day 13 목차
-- Debugging
-- Describe the Problem
-- Reproduce the Bug
-- Play Computer
-- Fix the Errors
-- Use Print
-- Use a Debugger 
-
+- [Day 13 목차](#day-13-목차)
+- [Debugging](#debugging)
+- [Describe the Problem](#describe-the-problem)
+- [Reproduce the Bug](#reproduce-the-bug)
+- [Play Computer](#play-computer)
+- [Fix the Errors](#fix-the-errors)
+  - [origin code](#origin-code)
+    - [pause 1. print error 디버깅](#pause-1-print-error-디버깅)
+    - [pause 2. try - except 디버깅](#pause-2-try---except-디버깅)
+    - [pause 3. print 출력](#pause-3-print-출력)
+- [Use Print](#use-print)
+  - [pause 1. print()를 이용해서 디버그](#pause-1-print를-이용해서-디버그)
+  - [pause 2. 코드 수정](#pause-2-코드-수정)
+- [Use a Debugger](#use-a-debugger)
+  - [디버거 사용법](#디버거-사용법)
+  - [PAUSE 1](#pause-1)
+  - [Debugging Final Tips](#debugging-final-tips)
+  - [Code Challenge](#code-challenge)
 
 
 ---
+
 # Debugging
 코드에서 버그를 제거하는 과정
 
@@ -50,7 +61,13 @@ def my_function():
 my_function()
 ```
 
+<div align="right">
+
+[목차로](#day-13-목차)
+</div>
+
 ---
+
 # Reproduce the Bug
 일부 버그는 교묘하게 특정 조건에서만 발생합니다. <br>
 이러한 버그를 디버깅하려면 버그를 안정적으로 재현하고, 문제를 진단하여 어떤 조건이 버그를 유발하는지 파악해야 합니다.
@@ -81,6 +98,11 @@ print(dice_images[dice_num])
 ```
 
 범위는 0부터 시작하므로 randint를 (0,5)로 변경한다.
+
+<div align="right">
+
+[목차로](#day-13-목차)
+</div>
 
 
 ---
@@ -119,6 +141,10 @@ elif year > 1994:
 
 <img width="285" height="103" alt="Image" src="https://github.com/user-attachments/assets/f30a54f1-e1ae-4d92-95c1-95a9dc2481bc" />
 
+<div align="right">
+
+[목차로](#day-13-목차)
+</div>
 
 ---
 
@@ -203,6 +229,12 @@ if age > 18:
 <img width="219" height="63" alt="Image" src="https://github.com/user-attachments/assets/8ebc18db-975c-4e0e-bedd-103729fdc83d" />
 
 
+<div align="right">
+
+[목차로](#day-13-목차)
+</div>
+
+
 ---
 
 # Use Print
@@ -265,6 +297,126 @@ print(f"워드 페이지 : {word_per_page}")
 <img width="259" height="121" alt="Image" src="https://github.com/user-attachments/assets/e24b9805-c6bf-49b3-a25e-a1c1f379314c" />
 
 
+<div align="right">
+
+[목차로](#day-13-목차)
+</div>
+
+
 ---
 
 # Use a Debugger
+Debugger : Pycharm과 같은 IDE(지능형 개발 환경)에 내장되어 있는 디버깅 도구
+
+## 디버거 사용법
+1. 중단점 정의 : 디버그 실행 중에 특정 줄에 있는 코드에서 일시정지 <br>
+아래 그림처럼 코드의 줄 번호가 있는 곳에 `중단점(빨간 점)`을 설정할 수 있음 <br>
+<img width="465" height="188" alt="Image" src="https://github.com/user-attachments/assets/e74f98bb-a098-47f9-b1de-f46e295cfb01" /> <br>
+
+
+2. 스텝 오버(step over) : 코드를 한 줄 씩 실행함 <br>
+<img width="194" height="142" alt="Image" src="https://github.com/user-attachments/assets/5c026be6-badf-4de3-99ee-a7c7547ce7c9" /> <br>
+
+
+3. 스텝 인투(step into) : 코드가 참조하는 다른 모듈의 실행을 보여줌 (예 : random 모듈) <br>
+<img width="191" height="85" alt="Image" src="https://github.com/user-attachments/assets/acb49832-42c9-445e-bfd8-7cd60a7a455c" /> <br>
+- 코드의 문제점을 알아내는데 도움이 되는 힌트를 제공하기도 함 <br>
+
+
+4. Step Into My Code : Step Into와 동일한 기능을 수행하지만, 적용 범위가 자신의 프로젝트 코드로 제한되고 random과 같은 라이브러리 코드는 무시함 <br>
+<img width="284" height="103" alt="Image" src="https://github.com/user-attachments/assets/608c3cb1-42da-419f-a5df-c6c8a5e7d805" /> <br>
+
+5. [filename] 다시실행 : 디버그 실행을 다시 시작하고 중단점에서 멈춤 <br>
+<img width="203" height="110" alt="Image" src="https://github.com/user-attachments/assets/c4e5e895-a4f0-4e58-b43d-3efd209d2df7" /> <br>
+
+6. 스레드와 변수 : 작업 중인 변수의 값을 보여주어 값 추적 가능 <br>
+<img width="370" height="196" alt="Image" src="https://github.com/user-attachments/assets/cedd4fa0-9f69-407f-a0ea-abcf248d8ec2" /> <br>
+
+
+
+## PAUSE 1
+PyCharm 디버거를 사용하여 아래 시작 코드의 문제를 파악하고 해결하세요.
+
+__original code__
+
+```py
+import random
+import maths
+
+
+def mutate(a_list):
+    b_list = []
+    new_item = 0
+    for item in a_list:
+        new_item = item * 2
+        new_item += random.randint(1, 3)
+        new_item = maths.add(new_item, item)
+    b_list.append(new_item)
+    print(b_list)
+
+
+mutate([1, 2, 3, 5, 8, 13])
+```
+
+`b_list` 결과값(▼)
+
+```
+[41]
+```
+
+`b_list`가 for _ in 함수에 들어가 있지 않아 마지막 결과값만 출력된다.
+
+<br> <br> 
+
+__디버깅한 코드(▼)__
+
+```py
+import random
+import maths
+
+
+def mutate(a_list):
+    b_list = []
+    new_item = 0
+    for item in a_list:
+        new_item = item * 2
+        new_item += random.randint(1, 3)
+        new_item = maths.add(new_item, item)
+        b_list.append(new_item)
+    print(b_list)
+
+
+mutate([1, 2, 3, 5, 8, 13])
+
+```
+
+디버깅 코드 결과값(▼)
+```
+[6, 8, 12, 18, 27, 41]
+```
+
+
+## Debugging Final Tips 
+- Take a Break : 머리가 안돌아가면 잠시 쉬세요. ㅋㅋㅋ
+- Ask a Friend : 그래도 안되면 누군가에게 물어보세요.
+- Run often : 코드를 짜면 자주 run 하세요.
+
+
+<div align="right">
+
+[목차로](#day-13-목차)
+</div>
+
+---
+
+## Code Challenge
+코드를 읽고 문제를 찾아 수정하여 프로그램을 실행하세요.
+
+1. [Debugging Odd or Even](https://github.com/Song1610/100days/blob/main/Day13/exercise/)
+2. [Debugging Leap Year]()
+3. [Debugging FizzBuzz]()
+
+<div align="right">
+
+[목차로](#day-13-목차)
+</div>
