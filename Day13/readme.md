@@ -412,9 +412,9 @@ mutate([1, 2, 3, 5, 8, 13])
 ## Code Challenge
 코드를 읽고 문제를 찾아 수정하여 프로그램을 실행하세요.
 
-1. [Debugging Odd or Even](https://github.com/Song1610/100days/blob/main/Day13/exercise/)
-2. [Debugging Leap Year]()
-3. [Debugging FizzBuzz]()
+1. [Debugging Odd or Even](https://github.com/Song1610/100days/blob/main/Day13/exercise/Debugging%20Odd%20or%20Even.py)
+2. [Debugging Leap Year](https://github.com/Song1610/100days/blob/main/Day13/exercise/Debugging%20Leap%20Year.py)
+3. [Debugging FizzBuzz](https://github.com/Song1610/100days/blob/main/Day13/exercise/Debugging%20FizzBuzz.py)
 
 <div align="right">
 
