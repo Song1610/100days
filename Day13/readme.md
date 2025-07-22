@@ -16,7 +16,7 @@
   - [디버거 사용법](#디버거-사용법)
   - [PAUSE 1](#pause-1)
   - [Debugging Final Tips](#debugging-final-tips)
-  - [Code Challenge](#code-challenge)
+- [Code Challenge](#code-challenge)
 
 
 ---
@@ -409,7 +409,7 @@ mutate([1, 2, 3, 5, 8, 13])
 
 ---
 
-## Code Challenge
+# Code Challenge
 코드를 읽고 문제를 찾아 수정하여 프로그램을 실행하세요.
 
 1. [Debugging Odd or Even](https://github.com/Song1610/100days/blob/main/Day13/exercise/Debugging%20Odd%20or%20Even.py)
