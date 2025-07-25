@@ -46,6 +46,9 @@ while not game_over:
 
     question = input("누구의 팔로우 수가 더 많은가요? A or B : ").lower()
 
+    # clear screen 추가
+    print("\n" * 40)
+
     # 계정 비교 및 점수
     wjatn = compare(question, a_account, b_account)     # wjatn : 점수
     if wjatn :
