@@ -26,9 +26,9 @@ MENU = {
 }
 
 resources = {
-    "water": 300,
-    "milk": 200,
-    "coffee": 100,
+    "water": 3000,
+    "milk": 2000,
+    "coffee": 1500,
 }
 
 
@@ -71,7 +71,7 @@ def check(user_money, coffee_cost):
 
 
 def make_coffee(drink_name, order):
-    """todo : 커피 만들기, """
+    """todo : 커피 만들기, 재료 빼기"""
     for item in order:
         resources[item] -= order[item]
     print(f"{drink_name}☕ 완성!")
@@ -80,9 +80,8 @@ def make_coffee(drink_name, order):
 
 machine = True
 
-# todo : 커피메뉴 물어보기
-
 while machine:
+    # todo : 커피메뉴 물어보기
     coffee_question = input("커피를 선택하세요.(espresso/latte/cappuccino): ")
 
     if coffee_question == "off":
