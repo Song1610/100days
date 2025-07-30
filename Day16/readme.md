@@ -1,11 +1,28 @@
 # Day 16 목차
+- [Day 16 목차](#day-16-목차)
+- [OOP(Object Oriented Programming)](#oopobject-oriented-programming)
+- [Procedural Programming](#procedural-programming)
+- [How to Use OOP](#how-to-use-oop)
+    - [_예시_](#예시)
+- [Object(개체)](#object개체)
+    - [_예시_](#예시-1)
+    - [정리(표)](#정리표)
+  - [1. Constructing Objects](#1-constructing-objects)
+    - [자동차 예시(그림으로 그려서 다시 넣기)](#자동차-예시그림으로-그려서-다시-넣기)
+  - [2. Object Attributes](#2-object-attributes)
+  - [3. Object Methods](#3-object-methods)
+- [거북이 Challenge](#거북이-challenge)
+  - [1. 거북이 컬러 변경](#1-거북이-컬러-변경)
+  - [2. 거북이 100걸음 걷게하기](#2-거북이-100걸음-걷게하기)
+- [정리](#정리)
+
 
 ---
 
 # OOP(Object Oriented Programming)
 - 객체 지향 프로그래밍
 
-# __Procedural Programming__
+# Procedural Programming
 하나의 파일에 코드를 때려 넣으면 코드가 복잡해짐
 그럼 코드에서 무슨 일이 벌어지는지 추적하기 어려움
 
@@ -19,7 +36,7 @@
 
 실제 객체를 모델링하기 위해 사용
 
-## _예시_
+### _예시_
 
 model : 웨이터
 1. has == __attributes__ (속성)
@@ -44,7 +61,7 @@ model : 웨이터
     - 모델링이 할 수 있는것을 메서드라고 함 <br>
        └ 함수로 모델링
 
-## Object(개체)
+# Object(개체)
 - 데이터 조각과 전체적인 기능을 결합
 - 같은 유형에서 생성된 여러개의 개체를 가질 수 있다.
 - 코드에서 사용할 실제 물건
@@ -64,7 +81,7 @@ model : 웨이터 <br>
 |웨이터|남자웨이터 <br> 여자웨이터|
 
 
-## Constructing Objects
+## 1. Constructing Objects
 bule print에서 새 오브젝트를 생성하기
 
 ### 자동차 예시(그림으로 그려서 다시 넣기)
@@ -118,7 +135,7 @@ timmy = Turtle()
 <turtle.Turtle object at 0x000001DEE4FA7230>
 ```
 
-## Object Attributes
+## 2. Object Attributes
 속도나 연료처럼 계속 추적할 수 있는 데이터는 실제 자동차 모델링에 중요한 변수 <br>
 이런 특성에 액세스 할 때의 구문(▼)
 ```py
@@ -155,7 +172,7 @@ print(my_screen.canvheight)
 300
 ```
 
-## Object Methods
+## 3. Object Methods
 ≒ dose 
 car가 할 수 있는 것
 ```py
@@ -214,8 +231,9 @@ my_screen.exitonclick()
 관련 [거북이 그래픽 사이트](https://docs.python.org/3/library/turtle.html)
 
 
-### 거북이 challenge 1.
-거북이 컬러 변경
+# 거북이 Challenge
+## 1. 거북이 컬러 변경
+
 - [컬러 참고 사이트](https://cs111.wellesley.edu/reference/colors)
 
 <br>
@@ -241,8 +259,7 @@ my_screen.exitonclick()
 <br>
 
 
-### 거북이 challenge 2.
-거북이 100걸음 걷게하기
+## 2. 거북이 100걸음 걷게하기
 
 ```py
 from turtle import Turtle, Screen
@@ -265,7 +282,8 @@ my_screen.exitonclick()
 
 
 
-### 정리
+# 정리
+
 1. 블루프린트에서 class를 새 object로 만들기
     ```
     car = CarBlueprint()
