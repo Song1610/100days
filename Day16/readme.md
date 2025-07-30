@@ -61,6 +61,14 @@ model : 웨이터
     - 모델링이 할 수 있는것을 메서드라고 함 <br>
        └ 함수로 모델링
 
+
+<div align="right">
+
+[목차로](#day-16-목차)
+</div>
+
+---
+
 # Object(개체)
 - 데이터 조각과 전체적인 기능을 결합
 - 같은 유형에서 생성된 여러개의 개체를 가질 수 있다.
@@ -135,6 +143,12 @@ timmy = Turtle()
 <turtle.Turtle object at 0x000001DEE4FA7230>
 ```
 
+<div align="right">
+
+[목차로](#day-16-목차)
+</div>
+
+
 ## 2. Object Attributes
 속도나 연료처럼 계속 추적할 수 있는 데이터는 실제 자동차 모델링에 중요한 변수 <br>
 이런 특성에 액세스 할 때의 구문(▼)
@@ -171,6 +185,12 @@ print(my_screen.canvheight)
 <turtle.Turtle object at 0x000001DEE4FA7230>
 300
 ```
+
+<div align="right">
+
+[목차로](#day-16-목차)
+</div>
+
 
 ## 3. Object Methods
 ≒ dose 
@@ -228,8 +248,14 @@ my_screen.exitonclick()
 <img width="469" height="413" alt="Image" src="https://github.com/user-attachments/assets/b734f01a-10fb-452e-b93f-9266497e68a4" />
 
 
-관련 [거북이 그래픽 사이트](https://docs.python.org/3/library/turtle.html)
+관련: [거북이 그래픽 사이트](https://docs.python.org/3/library/turtle.html)
 
+<div align="right">
+
+[목차로](#day-16-목차)
+</div>
+
+---
 
 # 거북이 Challenge
 ## 1. 거북이 컬러 변경
@@ -280,7 +306,12 @@ my_screen.exitonclick()
 <img width="463" height="418" alt="Image" src="https://github.com/user-attachments/assets/8d82630a-1200-40ed-b00f-465b138bbc52" />
 
 
+<div align="right">
 
+[목차로](#day-16-목차)
+</div>
+
+---
 
 # 정리
 
@@ -298,3 +329,9 @@ my_screen.exitonclick()
     timmy.color("DeepPink")
     timmy.forward(100)
     ```
+
+
+<div align="right">
+
+[목차로](#day-16-목차)
+</div>
