@@ -115,11 +115,3 @@ while machine:
 
     else :
         print("잘못 입력하셨습니다.")
-
-
-
-
-
-
-
-

@@ -15,3 +15,5 @@ timmy.forward(100)          # challenge 2 거북이가 100걸음 걷게하기
 my_screen = Screen()
 print(my_screen.canvheight)
 my_screen.exitonclick()
+
+
