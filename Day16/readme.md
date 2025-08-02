@@ -8,7 +8,6 @@
     - [_예시_](#예시-1)
     - [정리(표)](#정리표)
   - [1. Constructing Objects](#1-constructing-objects)
-    - [자동차 예시(그림으로 그려서 다시 넣기)](#자동차-예시그림으로-그려서-다시-넣기)
   - [2. Object Attributes](#2-object-attributes)
   - [3. Object Methods](#3-object-methods)
 - [거북이 Challenge](#거북이-challenge)
@@ -78,9 +77,7 @@ model : 웨이터
 - 코드에서 사용할 실제 물건
 
 ### _예시_
-model : 웨이터 <br>
-└ 남자 웨이터   ┐ <br>
-└ 여자 웨이터   ┘ <br>
+![Image](https://github.com/user-attachments/assets/f35d9ce7-b3d7-4db4-a975-94fab0b08c7d) <br>
 이것을 `blue print` 라고 함
 <br>
 <br>
@@ -95,8 +92,7 @@ model : 웨이터 <br>
 ## 1. Constructing Objects
 bule print에서 새 오브젝트를 생성하기
 
-### 자동차 예시(그림으로 그려서 다시 넣기)
-
+![Image](https://github.com/user-attachments/assets/02cace4d-f655-42f4-b9fc-877acca72069) <br>
 class와 object 구분하기(▼)
 ```py
 car = CarBlueprint()
