@@ -6,7 +6,6 @@ from money_machine import MoneyMachine
 menu = Menu()
 money_machine = MoneyMachine()
 coffee_maker = CoffeeMaker()
-
 machine = True
 
 
