@@ -4,7 +4,7 @@ from money_machine import MoneyMachine
 
 
 menu = Menu()
-money = MoneyMachine()
+money_machine = MoneyMachine()
 coffee_maker = CoffeeMaker()
 
 machine = True
@@ -12,7 +12,7 @@ machine = True
 
 while machine:
     options = menu.get_items()
-    coffee_question = input(f"커피를 선택하세요. {options}: ")
+    coffee_question = input(f"커피를 선택하세요.({options}): ")
 
     if coffee_question == "off":
         machine = False
@@ -20,20 +20,16 @@ while machine:
 
     elif coffee_question == "report":
         coffee_maker.report()
+        money_machine.report()
     
     elif coffee_question == "espresso" or coffee_question == "latte" or coffee_question == "cappuccino":
         print(coffee_question)
-        drink_cost = menu.find_drink(coffee_question)
-        print(drink_cost)
-        # print(f"{coffee_question}의 금액: ${drink_cost}")
-        
-        
-        # if get
-        
-        
-
-        # 메뉴 - 완료
-        # if 리소스가 많다면(true)
-        #     코인 넣기()
-        #     if 리소스 체크(ture)
-        #         커피만들기
+        drink = menu.find_drink(coffee_question)
+        sufficient = coffee_maker.is_resource_sufficient(drink)
+        if sufficient == True:
+            user_coin = money_machine.make_payment(drink.cost)
+            if user_coin == True:
+                coffee_maker.make_coffee(drink)
+    
+    else:
+        print("잘못 입력하셨습니다.")
